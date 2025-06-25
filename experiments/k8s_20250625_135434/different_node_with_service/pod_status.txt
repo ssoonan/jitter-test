@@ -1,0 +1,3 @@
+NAME                READY   STATUS    RESTARTS   AGE   IP           NODE          NOMINATED NODE   READINESS GATES
+consumer-diff-svc   1/1     Running   0          10s   10.42.1.59   rubikpi       <none>           <none>
+producer-diff-svc   1/1     Running   0          10s   10.42.2.25   raspberrypi   <none>           <none>

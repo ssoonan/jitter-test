@@ -1,0 +1,23 @@
+LAST SEEN   TYPE     REASON      OBJECT                  MESSAGE
+10m         Normal   Scheduled   pod/consumer-diff-svc   Successfully assigned default/consumer-diff-svc to rubikpi
+10m         Normal   Pulling     pod/consumer-diff-svc   Pulling image "ssoonan0770/jitter-consumer:latest"
+10m         Normal   Pulled      pod/consumer-diff-svc   Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.527s (1.527s including waiting). Image size: 6026485 bytes.
+10m         Normal   Created     pod/consumer-diff-svc   Created container: consumer
+10m         Normal   Started     pod/consumer-diff-svc   Started container consumer
+20m         Normal   Scheduled   pod/consumer-diff       Successfully assigned default/consumer-diff to rubikpi
+20m         Normal   Pulling     pod/consumer-diff       Pulling image "ssoonan0770/jitter-consumer:latest"
+20m         Normal   Pulled      pod/consumer-diff       Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.618s (1.618s including waiting). Image size: 6026485 bytes.
+20m         Normal   Created     pod/consumer-diff       Created container: consumer
+20m         Normal   Started     pod/consumer-diff       Started container consumer
+10m         Normal   Killing     pod/consumer-diff       Stopping container consumer
+10m         Normal   Scheduled   pod/producer-diff-svc   Successfully assigned default/producer-diff-svc to raspberrypi
+10m         Normal   Pulling     pod/producer-diff-svc   Pulling image "ssoonan0770/jitter-producer:latest"
+10m         Normal   Pulled      pod/producer-diff-svc   Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.719s (1.719s including waiting). Image size: 6007016 bytes.
+10m         Normal   Created     pod/producer-diff-svc   Created container: producer
+10m         Normal   Started     pod/producer-diff-svc   Started container producer
+20m         Normal   Scheduled   pod/producer-diff       Successfully assigned default/producer-diff to raspberrypi
+20m         Normal   Pulling     pod/producer-diff       Pulling image "ssoonan0770/jitter-producer:latest"
+20m         Normal   Pulled      pod/producer-diff       Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.767s (1.767s including waiting). Image size: 6007016 bytes.
+20m         Normal   Created     pod/producer-diff       Created container: producer
+20m         Normal   Started     pod/producer-diff       Started container producer
+10m         Normal   Killing     pod/producer-diff       Stopping container producer

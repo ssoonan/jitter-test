@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  consumer:
+    image: ssoonan0770/jitter-consumer:latest
+    container_name: jitter-consumer
+    ports:
+      - "8080:8080"
+    environment:
+      - LISTEN_PORT=8080
+    networks:
+      - jitter-network
+    # CPU 설정 (Docker에서는 cpuset 대신 cpus 사용)
+    cpus: 1.0
+    mem_limit: 256m
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "nc", "-z", "localhost", "8080"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  producer:
+    image: ssoonan0770/jitter-producer:latest
+    container_name: jitter-producer
+    depends_on:
+      consumer:
+        condition: service_healthy
+    environment:
+      - TARGET_ADDRESS=consumer:8080
+      - SEND_INTERVAL_MS=10
+    networks:
+      - jitter-network
+    cpus: 1.0
+    mem_limit: 256m
+    restart: unless-stopped
+
+networks:
+  jitter-network:
+    driver: bridge

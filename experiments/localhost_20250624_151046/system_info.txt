@@ -1,0 +1,7 @@
+=== System Info ===
+2025. 06. 24. (화) 15:20:53 KST
+Linux rtosubuntu-500TCA-500SCA 5.15.0-107-generic #117-Ubuntu SMP Fri Apr 26 12:26:49 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+model name	: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi        10Gi       1.8Gi       139Mi       3.4Gi       4.8Gi
+Swap:          2.0Gi       763Mi       1.3Gi

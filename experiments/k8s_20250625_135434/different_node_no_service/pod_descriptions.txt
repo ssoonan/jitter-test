@@ -1,0 +1,121 @@
+Name:             consumer-diff
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             rubikpi/192.168.100.80
+Start Time:       Wed, 25 Jun 2025 13:54:34 +0900
+Labels:           app=consumer-diff
+Annotations:      <none>
+Status:           Running
+IP:               10.42.1.58
+IPs:
+  IP:  10.42.1.58
+Containers:
+  consumer:
+    Container ID:   containerd://6f9a5a8c0e2430a4aef1e927b0b651cea5fc2f2b8e29821f200e33243d72638d
+    Image:          ssoonan0770/jitter-consumer:latest
+    Image ID:       docker.io/ssoonan0770/jitter-consumer@sha256:ffa29f2f61addd6736b5f4a0588ac6379ab0bfdc52da907f19ad89c2cc33af78
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Wed, 25 Jun 2025 13:54:36 +0900
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     1
+      memory:  256Mi
+    Requests:
+      cpu:     1
+      memory:  256Mi
+    Environment:
+      LISTEN_PORT:  8080
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-rvh2l (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-rvh2l:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   Guaranteed
+Node-Selectors:              kubernetes.io/hostname=rubikpi
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  10s   default-scheduler  Successfully assigned default/consumer-diff to rubikpi
+  Normal  Pulling    9s    kubelet            Pulling image "ssoonan0770/jitter-consumer:latest"
+  Normal  Pulled     8s    kubelet            Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.618s (1.618s including waiting). Image size: 6026485 bytes.
+  Normal  Created    8s    kubelet            Created container: consumer
+  Normal  Started    8s    kubelet            Started container consumer
+
+
+Name:             producer-diff
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             raspberrypi/192.168.100.78
+Start Time:       Wed, 25 Jun 2025 13:54:34 +0900
+Labels:           app=producer-diff
+Annotations:      <none>
+Status:           Running
+IP:               10.42.2.24
+IPs:
+  IP:  10.42.2.24
+Containers:
+  producer:
+    Container ID:   containerd://2e4e85415bd49448eb6873152c68d5e567d8d5789c19e64f1b402fc0bb32c4bf
+    Image:          ssoonan0770/jitter-producer:latest
+    Image ID:       docker.io/ssoonan0770/jitter-producer@sha256:82f5c3f067144ff030a270660d0a437a5e1ede93cc7a2889bf0860364e26a066
+    Port:           <none>
+    Host Port:      <none>
+    State:          Running
+      Started:      Wed, 25 Jun 2025 13:54:38 +0900
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     1
+      memory:  256Mi
+    Requests:
+      cpu:     1
+      memory:  256Mi
+    Environment:
+      TARGET_ADDRESS:    consumer-diff.consumer-diff-headless.default.svc.cluster.local:8080
+      SEND_INTERVAL_MS:  10
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-ppcs4 (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-ppcs4:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   Guaranteed
+Node-Selectors:              kubernetes.io/hostname=raspberrypi
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  10s   default-scheduler  Successfully assigned default/producer-diff to raspberrypi
+  Normal  Pulling    9s    kubelet            Pulling image "ssoonan0770/jitter-producer:latest"
+  Normal  Pulled     7s    kubelet            Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.767s (1.767s including waiting). Image size: 6007016 bytes.
+  Normal  Created    7s    kubelet            Created container: producer
+  Normal  Started    6s    kubelet            Started container producer

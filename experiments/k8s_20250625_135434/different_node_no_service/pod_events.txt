@@ -1,0 +1,11 @@
+LAST SEEN   TYPE     REASON      OBJECT              MESSAGE
+10m         Normal   Scheduled   pod/consumer-diff   Successfully assigned default/consumer-diff to rubikpi
+10m         Normal   Pulling     pod/consumer-diff   Pulling image "ssoonan0770/jitter-consumer:latest"
+10m         Normal   Pulled      pod/consumer-diff   Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.618s (1.618s including waiting). Image size: 6026485 bytes.
+10m         Normal   Created     pod/consumer-diff   Created container: consumer
+10m         Normal   Started     pod/consumer-diff   Started container consumer
+10m         Normal   Scheduled   pod/producer-diff   Successfully assigned default/producer-diff to raspberrypi
+10m         Normal   Pulling     pod/producer-diff   Pulling image "ssoonan0770/jitter-producer:latest"
+10m         Normal   Pulled      pod/producer-diff   Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.767s (1.767s including waiting). Image size: 6007016 bytes.
+10m         Normal   Created     pod/producer-diff   Created container: producer
+10m         Normal   Started     pod/producer-diff   Started container producer

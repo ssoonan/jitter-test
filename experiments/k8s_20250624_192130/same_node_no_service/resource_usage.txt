@@ -1,0 +1,3 @@
+NAME       CPU(cores)   MEMORY(bytes)   
+consumer   76m          7Mi             
+producer   84m          9Mi             

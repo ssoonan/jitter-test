@@ -1,0 +1,5 @@
+Experiment: same_node_with_service
+Start time: 2025. 06. 24. (화) 19:32:22 KST
+Duration: 600 seconds
+Consumer Pod: consumer-svc
+Producer Pod: producer-svc

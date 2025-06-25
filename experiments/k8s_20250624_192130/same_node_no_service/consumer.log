@@ -1,0 +1,843 @@
+Consumer starting on port 8080...
+Listening on [::]:8080
+New connection from 10.42.1.37:46898
+
+=== Latency Statistics (microseconds) ===
+Samples: 370
+Mean: 1548.93 μs
+StdDev: 136.90 μs
+Min: 639.20 μs
+Max: 3140.54 μs
+Percentiles:
+  P50 (median): 1551.47 μs
+  P90: 1610.48 μs
+  P99: 1785.26 μs
+  P99.9: 3140.54 μs
+=========================================
+Received: 1000 packets | Lost: 0 (0.00%) | Latest latency: 2380.40 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 1370
+Mean: 1507.37 μs
+StdDev: 177.66 μs
+Min: 561.96 μs
+Max: 4220.14 μs
+Percentiles:
+  P50 (median): 1536.57 μs
+  P90: 1596.93 μs
+  P99: 1754.64 μs
+  P99.9: 3619.48 μs
+=========================================
+Received: 2000 packets | Lost: 0 (0.00%) | Latest latency: 1515.95 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 2370
+Mean: 1518.98 μs
+StdDev: 198.19 μs
+Min: 561.96 μs
+Max: 5822.02 μs
+Percentiles:
+  P50 (median): 1543.45 μs
+  P90: 1596.31 μs
+  P99: 1773.34 μs
+  P99.9: 4220.14 μs
+=========================================
+Received: 3000 packets | Lost: 0 (0.00%) | Latest latency: 1647.09 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 3370
+Mean: 1516.01 μs
+StdDev: 195.83 μs
+Min: 558.68 μs
+Max: 5822.02 μs
+Percentiles:
+  P50 (median): 1542.82 μs
+  P90: 1595.01 μs
+  P99: 1776.67 μs
+  P99.9: 4220.14 μs
+=========================================
+Received: 4000 packets | Lost: 0 (0.00%) | Latest latency: 1670.27 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 4370
+Mean: 1526.25 μs
+StdDev: 191.86 μs
+Min: 522.64 μs
+Max: 5822.02 μs
+Percentiles:
+  P50 (median): 1545.42 μs
+  P90: 1599.49 μs
+  P99: 1813.07 μs
+  P99.9: 4220.14 μs
+=========================================
+Received: 5000 packets | Lost: 0 (0.00%) | Latest latency: 1374.65 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 5370
+Mean: 1522.84 μs
+StdDev: 192.73 μs
+Min: 522.64 μs
+Max: 5822.02 μs
+Percentiles:
+  P50 (median): 1544.54 μs
+  P90: 1598.81 μs
+  P99: 1865.73 μs
+  P99.9: 4220.14 μs
+=========================================
+Received: 6000 packets | Lost: 0 (0.00%) | Latest latency: 1610.74 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 6370
+Mean: 1526.33 μs
+StdDev: 213.31 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1545.69 μs
+  P90: 1600.42 μs
+  P99: 2001.09 μs
+  P99.9: 4317.07 μs
+=========================================
+Received: 7000 packets | Lost: 0 (0.00%) | Latest latency: 1792.09 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 7370
+Mean: 1523.31 μs
+StdDev: 215.35 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1544.18 μs
+  P90: 1598.60 μs
+  P99: 2001.09 μs
+  P99.9: 4317.07 μs
+=========================================
+Received: 8000 packets | Lost: 0 (0.00%) | Latest latency: 1485.43 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 8370
+Mean: 1519.61 μs
+StdDev: 220.31 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1543.45 μs
+  P90: 1598.03 μs
+  P99: 1943.17 μs
+  P99.9: 4317.07 μs
+=========================================
+Received: 9000 packets | Lost: 0 (0.00%) | Latest latency: 1550.63 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 9370
+Mean: 1520.25 μs
+StdDev: 217.34 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1544.28 μs
+  P90: 1599.49 μs
+  P99: 1939.37 μs
+  P99.9: 4317.07 μs
+=========================================
+Received: 10000 packets | Lost: 0 (0.00%) | Latest latency: 1597.61 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 10370
+Mean: 1519.44 μs
+StdDev: 211.91 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1544.18 μs
+  P90: 1599.12 μs
+  P99: 1931.35 μs
+  P99.9: 4220.14 μs
+=========================================
+Received: 11000 packets | Lost: 0 (0.00%) | Latest latency: 708.31 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 11370
+Mean: 1515.51 μs
+StdDev: 214.16 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1542.35 μs
+  P90: 1598.03 μs
+  P99: 1933.49 μs
+  P99.9: 4317.07 μs
+=========================================
+Received: 12000 packets | Lost: 0 (0.00%) | Latest latency: 1592.61 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 12370
+Mean: 1515.25 μs
+StdDev: 219.44 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1541.83 μs
+  P90: 1597.98 μs
+  P99: 1933.49 μs
+  P99.9: 4320.56 μs
+=========================================
+Received: 13000 packets | Lost: 0 (0.00%) | Latest latency: 2045.83 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 13370
+Mean: 1515.03 μs
+StdDev: 220.94 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1541.73 μs
+  P90: 1598.03 μs
+  P99: 1933.49 μs
+  P99.9: 4445.45 μs
+=========================================
+Received: 14000 packets | Lost: 0 (0.00%) | Latest latency: 1600.63 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 14370
+Mean: 1517.30 μs
+StdDev: 216.55 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1542.66 μs
+  P90: 1598.44 μs
+  P99: 1931.66 μs
+  P99.9: 4320.56 μs
+=========================================
+Received: 15000 packets | Lost: 0 (0.00%) | Latest latency: 1491.99 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 15370
+Mean: 1517.35 μs
+StdDev: 220.74 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1542.61 μs
+  P90: 1598.44 μs
+  P99: 1928.12 μs
+  P99.9: 4445.45 μs
+=========================================
+Received: 16000 packets | Lost: 0 (0.00%) | Latest latency: 1404.80 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 16370
+Mean: 1519.72 μs
+StdDev: 218.85 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1543.39 μs
+  P90: 1599.49 μs
+  P99: 1939.37 μs
+  P99.9: 4434.30 μs
+=========================================
+Received: 17000 packets | Lost: 0 (0.00%) | Latest latency: 1724.48 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 17370
+Mean: 1521.51 μs
+StdDev: 218.09 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1543.97 μs
+  P90: 1599.90 μs
+  P99: 2009.58 μs
+  P99.9: 4320.56 μs
+=========================================
+Received: 18000 packets | Lost: 0 (0.00%) | Latest latency: 1691.15 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 18370
+Mean: 1521.37 μs
+StdDev: 217.06 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1543.71 μs
+  P90: 1599.85 μs
+  P99: 2020.67 μs
+  P99.9: 4377.12 μs
+=========================================
+Received: 19000 packets | Lost: 0 (0.00%) | Latest latency: 1577.87 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 19370
+Mean: 1524.56 μs
+StdDev: 219.14 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1544.75 μs
+  P90: 1601.10 μs
+  P99: 2048.22 μs
+  P99.9: 4377.12 μs
+=========================================
+Received: 20000 packets | Lost: 0 (0.00%) | Latest latency: 1919.95 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 20370
+Mean: 1526.17 μs
+StdDev: 220.65 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1545.27 μs
+  P90: 1601.57 μs
+  P99: 2092.44 μs
+  P99.9: 4434.30 μs
+=========================================
+Received: 21000 packets | Lost: 0 (0.00%) | Latest latency: 801.59 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 21370
+Mean: 1527.21 μs
+StdDev: 222.54 μs
+Min: 509.62 μs
+Max: 8310.65 μs
+Percentiles:
+  P50 (median): 1545.69 μs
+  P90: 1601.73 μs
+  P99: 2073.74 μs
+  P99.9: 4445.45 μs
+=========================================
+Received: 22000 packets | Lost: 0 (0.00%) | Latest latency: 1684.90 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 22370
+Mean: 1528.55 μs
+StdDev: 224.89 μs
+Min: 509.62 μs
+Max: 8977.09 μs
+Percentiles:
+  P50 (median): 1546.21 μs
+  P90: 1601.93 μs
+  P99: 2055.41 μs
+  P99.9: 4445.45 μs
+=========================================
+Received: 23000 packets | Lost: 0 (0.00%) | Latest latency: 3743.64 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 23370
+Mean: 1529.02 μs
+StdDev: 232.10 μs
+Min: 509.62 μs
+Max: 9817.59 μs
+Percentiles:
+  P50 (median): 1546.21 μs
+  P90: 1601.57 μs
+  P99: 2071.87 μs
+  P99.9: 4523.26 μs
+=========================================
+Received: 24000 packets | Lost: 0 (0.00%) | Latest latency: 1724.64 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 24370
+Mean: 1526.51 μs
+StdDev: 233.46 μs
+Min: 509.62 μs
+Max: 9817.59 μs
+Percentiles:
+  P50 (median): 1545.01 μs
+  P90: 1601.10 μs
+  P99: 2074.99 μs
+  P99.9: 4523.26 μs
+=========================================
+Received: 25000 packets | Lost: 0 (0.00%) | Latest latency: 1677.51 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 25370
+Mean: 1526.63 μs
+StdDev: 232.92 μs
+Min: 509.62 μs
+Max: 9817.59 μs
+Percentiles:
+  P50 (median): 1545.16 μs
+  P90: 1601.20 μs
+  P99: 2091.87 μs
+  P99.9: 4523.26 μs
+=========================================
+Received: 26000 packets | Lost: 0 (0.00%) | Latest latency: 1399.02 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 26370
+Mean: 1527.05 μs
+StdDev: 233.21 μs
+Min: 495.98 μs
+Max: 9817.59 μs
+Percentiles:
+  P50 (median): 1545.11 μs
+  P90: 1600.94 μs
+  P99: 2107.60 μs
+  P99.9: 4523.26 μs
+=========================================
+Received: 27000 packets | Lost: 0 (0.00%) | Latest latency: 1587.35 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 27370
+Mean: 1527.88 μs
+StdDev: 239.68 μs
+Min: 495.98 μs
+Max: 11672.33 μs
+Percentiles:
+  P50 (median): 1545.27 μs
+  P90: 1601.05 μs
+  P99: 2127.18 μs
+  P99.9: 4523.26 μs
+=========================================
+Received: 28000 packets | Lost: 0 (0.00%) | Latest latency: 1430.74 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 28370
+Mean: 1528.51 μs
+StdDev: 244.30 μs
+Min: 495.98 μs
+Max: 11672.33 μs
+Percentiles:
+  P50 (median): 1545.63 μs
+  P90: 1600.84 μs
+  P99: 2127.18 μs
+  P99.9: 4523.26 μs
+=========================================
+Received: 29000 packets | Lost: 0 (0.00%) | Latest latency: 2152.86 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 29370
+Mean: 1528.03 μs
+StdDev: 248.16 μs
+Min: 495.98 μs
+Max: 11672.33 μs
+Percentiles:
+  P50 (median): 1545.22 μs
+  P90: 1600.68 μs
+  P99: 2127.02 μs
+  P99.9: 4532.53 μs
+=========================================
+Received: 30000 packets | Lost: 0 (0.00%) | Latest latency: 1372.05 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 30370
+Mean: 1527.51 μs
+StdDev: 250.39 μs
+Min: 495.98 μs
+Max: 11672.33 μs
+Percentiles:
+  P50 (median): 1545.11 μs
+  P90: 1600.48 μs
+  P99: 2124.63 μs
+  P99.9: 4585.70 μs
+=========================================
+Received: 31000 packets | Lost: 0 (0.00%) | Latest latency: 1585.06 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 31370
+Mean: 1527.90 μs
+StdDev: 256.33 μs
+Min: 495.98 μs
+Max: 11831.80 μs
+Percentiles:
+  P50 (median): 1545.22 μs
+  P90: 1600.32 μs
+  P99: 2127.02 μs
+  P99.9: 4813.15 μs
+=========================================
+Received: 32000 packets | Lost: 0 (0.00%) | Latest latency: 1547.92 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 32370
+Mean: 1528.24 μs
+StdDev: 264.65 μs
+Min: 495.98 μs
+Max: 14284.34 μs
+Percentiles:
+  P50 (median): 1545.01 μs
+  P90: 1599.96 μs
+  P99: 2124.00 μs
+  P99.9: 4813.15 μs
+=========================================
+Received: 33000 packets | Lost: 0 (0.00%) | Latest latency: 2080.25 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 33370
+Mean: 1528.55 μs
+StdDev: 270.96 μs
+Min: 495.98 μs
+Max: 14284.34 μs
+Percentiles:
+  P50 (median): 1545.22 μs
+  P90: 1600.06 μs
+  P99: 2123.38 μs
+  P99.9: 4988.77 μs
+=========================================
+Received: 34000 packets | Lost: 0 (0.00%) | Latest latency: 1989.21 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 34370
+Mean: 1529.16 μs
+StdDev: 278.57 μs
+Min: 495.98 μs
+Max: 15000.31 μs
+Percentiles:
+  P50 (median): 1545.37 μs
+  P90: 1600.32 μs
+  P99: 2123.43 μs
+  P99.9: 4988.77 μs
+=========================================
+Received: 35000 packets | Lost: 0 (0.00%) | Latest latency: 1766.20 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 35370
+Mean: 1529.76 μs
+StdDev: 282.75 μs
+Min: 495.98 μs
+Max: 15000.31 μs
+Percentiles:
+  P50 (median): 1545.58 μs
+  P90: 1600.22 μs
+  P99: 2121.14 μs
+  P99.9: 4988.77 μs
+=========================================
+Received: 36000 packets | Lost: 0 (0.00%) | Latest latency: 1456.37 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 36370
+Mean: 1530.93 μs
+StdDev: 294.36 μs
+Min: 495.98 μs
+Max: 16344.44 μs
+Percentiles:
+  P50 (median): 1545.84 μs
+  P90: 1600.42 μs
+  P99: 2128.79 μs
+  P99.9: 5073.24 μs
+=========================================
+Received: 37000 packets | Lost: 0 (0.00%) | Latest latency: 1376.89 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 37370
+Mean: 1531.56 μs
+StdDev: 295.52 μs
+Min: 495.98 μs
+Max: 16344.44 μs
+Percentiles:
+  P50 (median): 1546.00 μs
+  P90: 1600.58 μs
+  P99: 2133.64 μs
+  P99.9: 5073.24 μs
+=========================================
+Received: 38000 packets | Lost: 0 (0.00%) | Latest latency: 1457.46 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 38370
+Mean: 1532.67 μs
+StdDev: 315.56 μs
+Min: 495.98 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1546.00 μs
+  P90: 1600.42 μs
+  P99: 2133.07 μs
+  P99.9: 5168.24 μs
+=========================================
+Received: 39000 packets | Lost: 0 (0.00%) | Latest latency: 4306.13 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 39370
+Mean: 1532.67 μs
+StdDev: 320.24 μs
+Min: 495.98 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1545.89 μs
+  P90: 1600.53 μs
+  P99: 2131.82 μs
+  P99.9: 5168.24 μs
+=========================================
+Received: 40000 packets | Lost: 0 (0.00%) | Latest latency: 1678.34 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 40370
+Mean: 1533.49 μs
+StdDev: 320.58 μs
+Min: 495.98 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1546.15 μs
+  P90: 1600.84 μs
+  P99: 2134.63 μs
+  P99.9: 5168.24 μs
+=========================================
+Received: 41000 packets | Lost: 0 (0.00%) | Latest latency: 1496.37 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 41370
+Mean: 1534.03 μs
+StdDev: 324.49 μs
+Min: 495.98 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1546.21 μs
+  P90: 1600.94 μs
+  P99: 2138.43 μs
+  P99.9: 5168.24 μs
+=========================================
+Received: 42000 packets | Lost: 0 (0.00%) | Latest latency: 1477.93 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 42370
+Mean: 1533.52 μs
+StdDev: 328.11 μs
+Min: 495.98 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1545.95 μs
+  P90: 1600.84 μs
+  P99: 2138.38 μs
+  P99.9: 5168.24 μs
+=========================================
+Received: 43000 packets | Lost: 0 (0.00%) | Latest latency: 1549.64 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 43370
+Mean: 1534.25 μs
+StdDev: 335.37 μs
+Min: 495.98 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1546.15 μs
+  P90: 1601.31 μs
+  P99: 2140.77 μs
+  P99.9: 5249.90 μs
+=========================================
+Received: 44000 packets | Lost: 0 (0.00%) | Latest latency: 1744.22 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 44370
+Mean: 1532.84 μs
+StdDev: 335.70 μs
+Min: 495.98 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1545.42 μs
+  P90: 1600.79 μs
+  P99: 2138.38 μs
+  P99.9: 5249.90 μs
+=========================================
+Received: 45000 packets | Lost: 0 (0.00%) | Latest latency: 1809.17 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 45370
+Mean: 1532.34 μs
+StdDev: 340.54 μs
+Min: 495.98 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1545.11 μs
+  P90: 1600.58 μs
+  P99: 2136.97 μs
+  P99.9: 5266.31 μs
+=========================================
+Received: 46000 packets | Lost: 0 (0.00%) | Latest latency: 1743.70 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 46370
+Mean: 1532.77 μs
+StdDev: 344.93 μs
+Min: 466.55 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1544.96 μs
+  P90: 1600.74 μs
+  P99: 2145.51 μs
+  P99.9: 5266.31 μs
+=========================================
+Received: 47000 packets | Lost: 0 (0.00%) | Latest latency: 1599.28 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 47370
+Mean: 1533.34 μs
+StdDev: 349.20 μs
+Min: 466.55 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1545.06 μs
+  P90: 1600.94 μs
+  P99: 2146.19 μs
+  P99.9: 5289.12 μs
+=========================================
+Received: 48000 packets | Lost: 0 (0.00%) | Latest latency: 1399.02 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 48370
+Mean: 1533.80 μs
+StdDev: 358.67 μs
+Min: 466.55 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1545.01 μs
+  P90: 1601.05 μs
+  P99: 2146.61 μs
+  P99.9: 5417.87 μs
+=========================================
+Received: 49000 packets | Lost: 0 (0.00%) | Latest latency: 1514.23 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 49370
+Mean: 1533.35 μs
+StdDev: 364.54 μs
+Min: 466.55 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1544.70 μs
+  P90: 1600.84 μs
+  P99: 2145.51 μs
+  P99.9: 5426.67 μs
+=========================================
+Received: 50000 packets | Lost: 0 (0.00%) | Latest latency: 4516.54 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 50370
+Mean: 1533.86 μs
+StdDev: 369.43 μs
+Min: 466.55 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1544.33 μs
+  P90: 1600.94 μs
+  P99: 2151.29 μs
+  P99.9: 5703.75 μs
+=========================================
+Received: 51000 packets | Lost: 0 (0.00%) | Latest latency: 1681.05 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 51370
+Mean: 1533.82 μs
+StdDev: 372.90 μs
+Min: 466.55 μs
+Max: 20660.62 μs
+Percentiles:
+  P50 (median): 1544.33 μs
+  P90: 1601.10 μs
+  P99: 2150.51 μs
+  P99.9: 5809.78 μs
+=========================================
+Received: 52000 packets | Lost: 0 (0.00%) | Latest latency: 3344.28 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 52370
+Mean: 1534.75 μs
+StdDev: 391.61 μs
+Min: 466.55 μs
+Max: 26197.96 μs
+Percentiles:
+  P50 (median): 1544.54 μs
+  P90: 1601.05 μs
+  P99: 2150.51 μs
+  P99.9: 5908.27 μs
+=========================================
+Received: 53000 packets | Lost: 0 (0.00%) | Latest latency: 1551.26 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 53370
+Mean: 1534.85 μs
+StdDev: 393.21 μs
+Min: 466.55 μs
+Max: 26197.96 μs
+Percentiles:
+  P50 (median): 1544.54 μs
+  P90: 1601.05 μs
+  P99: 2150.10 μs
+  P99.9: 5908.27 μs
+=========================================
+Received: 54000 packets | Lost: 0 (0.00%) | Latest latency: 1456.05 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 54370
+Mean: 1535.21 μs
+StdDev: 397.58 μs
+Min: 466.55 μs
+Max: 26197.96 μs
+Percentiles:
+  P50 (median): 1544.54 μs
+  P90: 1601.10 μs
+  P99: 2151.29 μs
+  P99.9: 6107.59 μs
+=========================================
+Received: 55000 packets | Lost: 0 (0.00%) | Latest latency: 1383.24 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 55370
+Mean: 1534.97 μs
+StdDev: 397.84 μs
+Min: 466.55 μs
+Max: 26197.96 μs
+Percentiles:
+  P50 (median): 1544.54 μs
+  P90: 1601.00 μs
+  P99: 2150.51 μs
+  P99.9: 6107.59 μs
+=========================================
+Received: 56000 packets | Lost: 0 (0.00%) | Latest latency: 1835.00 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 56370
+Mean: 1535.39 μs
+StdDev: 400.60 μs
+Min: 466.55 μs
+Max: 26197.96 μs
+Percentiles:
+  P50 (median): 1544.64 μs
+  P90: 1600.94 μs
+  P99: 2148.27 μs
+  P99.9: 6193.68 μs
+=========================================
+Received: 57000 packets | Lost: 0 (0.00%) | Latest latency: 1647.30 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 57370
+Mean: 1535.61 μs
+StdDev: 403.68 μs
+Min: 466.55 μs
+Max: 26197.96 μs
+Percentiles:
+  P50 (median): 1544.59 μs
+  P90: 1601.05 μs
+  P99: 2151.09 μs
+  P99.9: 6373.00 μs
+=========================================
+Received: 58000 packets | Lost: 0 (0.00%) | Latest latency: 1549.59 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 58370
+Mean: 1535.40 μs
+StdDev: 407.70 μs
+Min: 466.55 μs
+Max: 26197.96 μs
+Percentiles:
+  P50 (median): 1544.43 μs
+  P90: 1600.89 μs
+  P99: 2151.50 μs
+  P99.9: 6453.52 μs
+=========================================
+Received: 59000 packets | Lost: 0 (0.00%) | Latest latency: 1604.69 μs
+
+=== Latency Statistics (microseconds) ===
+Samples: 59370
+Mean: 1535.36 μs
+StdDev: 408.57 μs
+Min: 466.55 μs
+Max: 26197.96 μs
+Percentiles:
+  P50 (median): 1544.43 μs
+  P90: 1600.84 μs
+  P99: 2150.10 μs
+  P99.9: 6453.52 μs
+=========================================
+Received: 60000 packets | Lost: 0 (0.00%) | Latest latency: 1431.99 μs

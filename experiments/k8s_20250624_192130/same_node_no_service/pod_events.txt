@@ -1,0 +1,47 @@
+LAST SEEN   TYPE     REASON      OBJECT                  MESSAGE
+11m         Normal   Scheduled   pod/consumer-diff-svc   Successfully assigned default/consumer-diff-svc to rubikpi
+11m         Normal   Pulling     pod/consumer-diff-svc   Pulling image "ssoonan0770/jitter-consumer:latest"
+11m         Normal   Pulled      pod/consumer-diff-svc   Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.575s (1.576s including waiting). Image size: 6026485 bytes.
+11m         Normal   Created     pod/consumer-diff-svc   Created container: consumer
+11m         Normal   Started     pod/consumer-diff-svc   Started container consumer
+11m         Normal   Killing     pod/consumer-diff-svc   Stopping container consumer
+11m         Normal   Scheduled   pod/consumer-diff-svc   Successfully assigned default/consumer-diff-svc to rubikpi
+11m         Normal   Pulling     pod/consumer-diff-svc   Pulling image "ssoonan0770/jitter-consumer:latest"
+11m         Normal   Pulled      pod/consumer-diff-svc   Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.517s (1.517s including waiting). Image size: 6026485 bytes.
+11m         Normal   Created     pod/consumer-diff-svc   Created container: consumer
+11m         Normal   Started     pod/consumer-diff-svc   Started container consumer
+10m         Normal   Killing     pod/consumer-diff-svc   Stopping container consumer
+10m         Normal   Scheduled   pod/consumer            Successfully assigned default/consumer to rubikpi
+10m         Normal   Pulling     pod/consumer            Pulling image "ssoonan0770/jitter-consumer:latest"
+10m         Normal   Pulled      pod/consumer            Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.534s (1.534s including waiting). Image size: 6026485 bytes.
+10m         Normal   Created     pod/consumer            Created container: consumer
+10m         Normal   Started     pod/consumer            Started container consumer
+10m         Normal   Killing     pod/consumer            Stopping container consumer
+10m         Normal   Scheduled   pod/consumer            Successfully assigned default/consumer to rubikpi
+10m         Normal   Pulling     pod/consumer            Pulling image "ssoonan0770/jitter-consumer:latest"
+10m         Normal   Pulled      pod/consumer            Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.536s (1.536s including waiting). Image size: 6026485 bytes.
+10m         Normal   Created     pod/consumer            Created container: consumer
+10m         Normal   Started     pod/consumer            Started container consumer
+11m         Normal   Scheduled   pod/producer-diff-svc   Successfully assigned default/producer-diff-svc to raspberrypi
+11m         Normal   Pulling     pod/producer-diff-svc   Pulling image "ssoonan0770/jitter-producer:latest"
+11m         Normal   Pulled      pod/producer-diff-svc   Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.643s (1.643s including waiting). Image size: 6007016 bytes.
+11m         Normal   Created     pod/producer-diff-svc   Created container: producer
+11m         Normal   Started     pod/producer-diff-svc   Started container producer
+11m         Normal   Killing     pod/producer-diff-svc   Stopping container producer
+11m         Normal   Scheduled   pod/producer-diff-svc   Successfully assigned default/producer-diff-svc to raspberrypi
+11m         Normal   Pulling     pod/producer-diff-svc   Pulling image "ssoonan0770/jitter-producer:latest"
+11m         Normal   Pulled      pod/producer-diff-svc   Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.698s (1.698s including waiting). Image size: 6007016 bytes.
+11m         Normal   Created     pod/producer-diff-svc   Created container: producer
+11m         Normal   Started     pod/producer-diff-svc   Started container producer
+10m         Normal   Killing     pod/producer-diff-svc   Stopping container producer
+10m         Normal   Scheduled   pod/producer            Successfully assigned default/producer to rubikpi
+10m         Normal   Pulling     pod/producer            Pulling image "ssoonan0770/jitter-producer:latest"
+10m         Normal   Pulled      pod/producer            Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.517s (1.517s including waiting). Image size: 6007016 bytes.
+10m         Normal   Created     pod/producer            Created container: producer
+10m         Normal   Started     pod/producer            Started container producer
+10m         Normal   Killing     pod/producer            Stopping container producer
+10m         Normal   Scheduled   pod/producer            Successfully assigned default/producer to rubikpi
+10m         Normal   Pulling     pod/producer            Pulling image "ssoonan0770/jitter-producer:latest"
+10m         Normal   Pulled      pod/producer            Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.595s (1.595s including waiting). Image size: 6007016 bytes.
+10m         Normal   Created     pod/producer            Created container: producer
+10m         Normal   Started     pod/producer            Started container producer

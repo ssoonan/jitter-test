@@ -1,0 +1,5 @@
+Experiment: same_node_no_service
+Start time: 2025. 06. 24. (화) 19:21:40 KST
+Duration: 600 seconds
+Consumer Pod: consumer
+Producer Pod: producer

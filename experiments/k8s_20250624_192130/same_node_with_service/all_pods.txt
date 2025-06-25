@@ -1,0 +1,18 @@
+NAMESPACE     NAME                                      READY   STATUS                   RESTARTS             AGE
+default       consumer-svc                              1/1     Running                  0                    10s
+default       producer-svc                              1/1     Running                  0                    10s
+kube-system   coredns-64b844df5-5s27l                   1/1     Running                  1 (66m ago)          3h44m
+kube-system   helm-install-traefik-7jln7                0/1     Completed                0                    81d
+kube-system   helm-install-traefik-crd-76sn7            0/1     Completed                0                    81d
+kube-system   helm-install-traefik-ct6fk                0/1     ContainerStatusUnknown   1                    81d
+kube-system   helm-install-traefik-jnf8k                0/1     ContainerStatusUnknown   0                    81d
+kube-system   helm-install-traefik-wbmvg                0/1     ContainerStatusUnknown   0                    81d
+kube-system   local-path-provisioner-774c6665dc-t4hjj   1/1     Running                  15 (<invalid> ago)   81d
+kube-system   metrics-server-764d46d4cc-rt2wx           1/1     Running                  0                    3h28m
+kube-system   nvidia-device-plugin-daemonset-2lxq9      1/1     Running                  0                    5h49m
+kube-system   nvidia-device-plugin-daemonset-d6wrj      1/1     Running                  15 (<invalid> ago)   81d
+kube-system   nvidia-device-plugin-daemonset-znxdp      1/1     Running                  0                    5h49m
+kube-system   svclb-traefik-4655505b-66js5              2/2     Running                  0                    5h49m
+kube-system   svclb-traefik-4655505b-kh628              2/2     Running                  30 (<invalid> ago)   81d
+kube-system   svclb-traefik-4655505b-wqjhc              2/2     Running                  0                    5h49m
+kube-system   traefik-67bfb46dcb-xngxv                  0/1     CreateContainerError     16 (66m ago)         81d

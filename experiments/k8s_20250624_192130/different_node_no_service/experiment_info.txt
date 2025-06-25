@@ -1,0 +1,5 @@
+Experiment: different_node_no_service
+Start time: 2025. 06. 24. (화) 19:43:04 KST
+Duration: 600 seconds
+Consumer Pod: consumer-diff
+Producer Pod: producer-diff

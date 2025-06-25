@@ -1,0 +1,3 @@
+NAME                CPU(cores)   MEMORY(bytes)   
+consumer-diff-svc   81m          8Mi             
+producer-diff-svc   79m          6Mi             

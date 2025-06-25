@@ -1,0 +1,65 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: consumer-headless
+spec:
+  clusterIP: None  # Headless Service
+  selector:
+    app: consumer
+  ports:
+  - port: 8080
+    targetPort: 8080
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: consumer
+  labels:
+    app: consumer
+spec:
+  nodeSelector:
+    kubernetes.io/hostname: rubikpi
+  hostname: consumer  # Pod의 hostname 설정
+  subdomain: consumer-headless  # headless service와 연결
+  containers:
+  - name: consumer
+    image: ssoonan0770/jitter-consumer:latest
+    imagePullPolicy: Always
+    ports:
+    - containerPort: 8080
+    env:
+    - name: LISTEN_PORT
+      value: "8080"
+    resources:
+      requests:
+        cpu: "1"
+        memory: "256Mi"
+      limits:
+        cpu: "1"
+        memory: "256Mi"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: producer
+  labels:
+    app: producer
+spec:
+  nodeSelector:
+    kubernetes.io/hostname: rubikpi
+  containers:
+  - name: producer
+    image: ssoonan0770/jitter-producer:latest
+    imagePullPolicy: Always
+    env:
+    - name: TARGET_ADDRESS
+      value: "consumer.consumer-headless.default.svc.cluster.local:8080"  # 전체 DNS 이름
+    - name: SEND_INTERVAL_MS
+      value: "10"
+    resources:
+      requests:
+        cpu: "1"
+        memory: "256Mi"
+      limits:
+        cpu: "1"
+        memory: "256Mi"
