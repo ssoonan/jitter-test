@@ -19,7 +19,7 @@ metadata:
     app: consumer-diff
 spec:
   nodeSelector:
-    kubernetes.io/hostname: rtosubuntu-500tca-500sca  # Fixed consumer node
+    kubernetes.io/hostname: rubikpi  # Fixed consumer node
   containers:
   - name: consumer
     image: ssoonan0770/jitter-consumer:latest

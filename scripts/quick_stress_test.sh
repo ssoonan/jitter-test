@@ -61,7 +61,7 @@ prepare_yaml_with_nodes() {
     elif [[ "$scenario_type" == "different-node" ]]; then
         # For different-node tests: consumer fixed, producer dynamic
         sed -i "s/PRODUCER_NODE_PLACEHOLDER/$node_name/g" "$target_yaml"
-        echo "Configured different-node test: consumer on rtosubuntu-500tca-500sca, producer on $node_name"
+        echo "Configured different-node test: consumer on rubikpi, producer on $node_name"
     fi
 }
 
@@ -192,17 +192,39 @@ sleep $DURATION
 # Stop monitoring
 kill $MONITOR_PID 2>/dev/null
 
+# Wait a bit more for final results
+echo "Waiting for final results..."
+sleep 5
+
 # Collect results
 echo ""
 echo "Collecting results..."
 
-# Get pod names
-CONSUMER_POD=$(kubectl get pods -l app=consumer -o jsonpath='{.items[0].metadata.name}')
-PRODUCER_POD=$(kubectl get pods -l app=producer -o jsonpath='{.items[0].metadata.name}')
+# Get pod names based on scenario
+if [[ "$SCENARIO" == *"same-node"* ]]; then
+    CONSUMER_POD=$(kubectl get pods -l app=consumer-same -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
+    PRODUCER_POD=$(kubectl get pods -l app=producer-same -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
+else
+    CONSUMER_POD=$(kubectl get pods -l app=consumer-diff -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
+    PRODUCER_POD=$(kubectl get pods -l app=producer-diff -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
+fi
 
-# Save logs
-kubectl logs $CONSUMER_POD > $EXP_DIR/consumer.log 2>&1
-kubectl logs $PRODUCER_POD > $EXP_DIR/producer.log 2>&1
+# Save logs with better error handling
+if [ -n "$CONSUMER_POD" ]; then
+    kubectl logs $CONSUMER_POD > $EXP_DIR/consumer.log 2>&1
+    echo "Consumer logs saved from pod: $CONSUMER_POD"
+else
+    echo "Warning: Consumer pod not found"
+    echo "Consumer pod not found" > $EXP_DIR/consumer.log
+fi
+
+if [ -n "$PRODUCER_POD" ]; then
+    kubectl logs $PRODUCER_POD > $EXP_DIR/producer.log 2>&1
+    echo "Producer logs saved from pod: $PRODUCER_POD"
+else
+    echo "Warning: Producer pod not found"
+    echo "Producer pod not found" > $EXP_DIR/producer.log
+fi
 kubectl logs stress-cpu-quick > $EXP_DIR/stress-cpu.log 2>&1
 
 if [ $BANDWIDTH -lt 1000 ]; then
@@ -218,8 +240,37 @@ echo ""
 echo "=== Quick Test Results ==="
 echo "Experiment directory: $EXP_DIR"
 echo ""
+
+# Pod placement verification
+echo "Pod Placement:"
+if [ -n "$CONSUMER_POD" ]; then
+    CONSUMER_NODE=$(kubectl get pod $CONSUMER_POD -o jsonpath='{.spec.nodeName}' 2>/dev/null)
+    echo "  Consumer: $CONSUMER_POD on node $CONSUMER_NODE"
+fi
+if [ -n "$PRODUCER_POD" ]; then
+    PRODUCER_NODE=$(kubectl get pod $PRODUCER_POD -o jsonpath='{.spec.nodeName}' 2>/dev/null)
+    echo "  Producer: $PRODUCER_POD on node $PRODUCER_NODE"
+fi
+echo ""
+
 echo "Latency Statistics:"
-tail -20 $EXP_DIR/producer.log | grep -E "(RTT Statistics|P50|P99|Mean|Packet loss)" | tail -5
+if [ -f "$EXP_DIR/producer.log" ] && [ -s "$EXP_DIR/producer.log" ]; then
+    # Try different patterns for latency statistics
+    if grep -q "RTT Statistics" "$EXP_DIR/producer.log"; then
+        tail -30 "$EXP_DIR/producer.log" | grep -A 10 "RTT Statistics" | tail -10
+    elif grep -q "P50" "$EXP_DIR/producer.log"; then
+        tail -20 "$EXP_DIR/producer.log" | grep -E "(P50|P90|P99|Mean|Packet loss|RTT)" | tail -5
+    else
+        echo "  Searching for latency data..."
+        tail -20 "$EXP_DIR/producer.log" | grep -E "(latency|rtt|RTT|ms|μs)" | tail -5
+        if [ $? -ne 0 ]; then
+            echo "  No latency statistics found. Producer log contents:"
+            tail -10 "$EXP_DIR/producer.log"
+        fi
+    fi
+else
+    echo "  Producer log not available or empty"
+fi
 
 # Cleanup
 echo ""
