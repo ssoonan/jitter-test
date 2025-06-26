@@ -1,0 +1,16 @@
+Stress Experiment Summary
+========================
+Date: 2025. 06. 26. (목) 18:03:21 KST
+Base Directory: experiments/stress_20250626_170308
+
+Experiment Configuration:
+- CPU Stress Levels: 10 30 50 70 90%
+- Network Bandwidth Levels: 0 Mbps
+- Producer Nodes: raspberrypi rtosubuntu-500tca-500sca
+- Scenarios: same-node-with-service different-node-with-service
+- Duration per experiment: 120 seconds
+- Total experiments: 20
+
+To analyze results:
+cd experiments/stress_20250626_170308
+python3 analyze_stress_results.py

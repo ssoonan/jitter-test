@@ -1,0 +1,878 @@
+LAST SEEN   TYPE      REASON      OBJECT                                       MESSAGE
+53m         Normal    Scheduled   pod/consumer-diff-svc                        Successfully assigned default/consumer-diff-svc to rubikpi
+53m         Normal    Pulling     pod/consumer-diff-svc                        Pulling image "ssoonan0770/jitter-consumer:latest"
+53m         Normal    Pulled      pod/consumer-diff-svc                        Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 2.427s (2.427s including waiting). Image size: 6025303 bytes.
+53m         Normal    Created     pod/consumer-diff-svc                        Created container: consumer
+53m         Normal    Started     pod/consumer-diff-svc                        Started container consumer
+52m         Normal    Killing     pod/consumer-diff-svc                        Stopping container consumer
+52m         Normal    Scheduled   pod/consumer-diff-svc                        Successfully assigned default/consumer-diff-svc to rubikpi
+52m         Normal    Pulling     pod/consumer-diff-svc                        Pulling image "ssoonan0770/jitter-consumer:latest"
+52m         Normal    Pulled      pod/consumer-diff-svc                        Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 2.205s (2.205s including waiting). Image size: 6025303 bytes.
+52m         Normal    Created     pod/consumer-diff-svc                        Created container: consumer
+52m         Normal    Started     pod/consumer-diff-svc                        Started container consumer
+51m         Normal    Killing     pod/consumer-diff-svc                        Stopping container consumer
+51m         Normal    Scheduled   pod/consumer-diff-svc                        Successfully assigned default/consumer-diff-svc to rubikpi
+51m         Normal    Pulling     pod/consumer-diff-svc                        Pulling image "ssoonan0770/jitter-consumer:latest"
+51m         Normal    Pulled      pod/consumer-diff-svc                        Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.759s (1.759s including waiting). Image size: 6025303 bytes.
+51m         Normal    Created     pod/consumer-diff-svc                        Created container: consumer
+51m         Normal    Started     pod/consumer-diff-svc                        Started container consumer
+50m         Normal    Killing     pod/consumer-diff-svc                        Stopping container consumer
+50m         Normal    Scheduled   pod/consumer-diff-svc                        Successfully assigned default/consumer-diff-svc to rubikpi
+50m         Normal    Pulling     pod/consumer-diff-svc                        Pulling image "ssoonan0770/jitter-consumer:latest"
+50m         Normal    Pulled      pod/consumer-diff-svc                        Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.519s (1.519s including waiting). Image size: 6025303 bytes.
+50m         Normal    Created     pod/consumer-diff-svc                        Created container: consumer
+50m         Normal    Started     pod/consumer-diff-svc                        Started container consumer
+50m         Normal    Killing     pod/consumer-diff-svc                        Stopping container consumer
+120m        Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+120m        Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.868s (1.868s including waiting). Image size: 6025303 bytes.
+120m        Normal    Created     pod/consumer-svc                             Created container: consumer
+120m        Normal    Started     pod/consumer-svc                             Started container consumer
+116m        Normal    Killing     pod/consumer-svc                             Stopping container consumer
+109m        Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+109m        Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.742s (1.743s including waiting). Image size: 6025303 bytes.
+109m        Normal    Created     pod/consumer-svc                             Created container: consumer
+109m        Normal    Started     pod/consumer-svc                             Started container consumer
+106m        Normal    Killing     pod/consumer-svc                             Stopping container consumer
+105m        Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+105m        Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.768s (1.768s including waiting). Image size: 6025303 bytes.
+105m        Normal    Created     pod/consumer-svc                             Created container: consumer
+105m        Normal    Started     pod/consumer-svc                             Started container consumer
+104m        Normal    Killing     pod/consumer-svc                             Stopping container consumer
+103m        Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+103m        Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.777s (1.777s including waiting). Image size: 6025303 bytes.
+103m        Normal    Created     pod/consumer-svc                             Created container: consumer
+103m        Normal    Started     pod/consumer-svc                             Started container consumer
+102m        Normal    Killing     pod/consumer-svc                             Stopping container consumer
+101m        Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+101m        Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.811s (1.811s including waiting). Image size: 6025303 bytes.
+101m        Normal    Created     pod/consumer-svc                             Created container: consumer
+101m        Normal    Started     pod/consumer-svc                             Started container consumer
+100m        Normal    Killing     pod/consumer-svc                             Stopping container consumer
+99m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+99m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.899s (1.899s including waiting). Image size: 6025303 bytes.
+99m         Normal    Created     pod/consumer-svc                             Created container: consumer
+99m         Normal    Started     pod/consumer-svc                             Started container consumer
+98m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+97m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+97m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.876s (1.876s including waiting). Image size: 6025303 bytes.
+97m         Normal    Created     pod/consumer-svc                             Created container: consumer
+97m         Normal    Started     pod/consumer-svc                             Started container consumer
+96m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+89m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+89m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 2.002s (2.002s including waiting). Image size: 6025303 bytes.
+89m         Normal    Created     pod/consumer-svc                             Created container: consumer
+89m         Normal    Started     pod/consumer-svc                             Started container consumer
+87m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+86m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+86m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.744s (1.744s including waiting). Image size: 6025303 bytes.
+86m         Normal    Created     pod/consumer-svc                             Created container: consumer
+86m         Normal    Started     pod/consumer-svc                             Started container consumer
+83m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+83m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+83m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.816s (1.816s including waiting). Image size: 6025303 bytes.
+83m         Normal    Created     pod/consumer-svc                             Created container: consumer
+83m         Normal    Started     pod/consumer-svc                             Started container consumer
+81m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+80m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+80m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.755s (1.755s including waiting). Image size: 6025303 bytes.
+80m         Normal    Created     pod/consumer-svc                             Created container: consumer
+80m         Normal    Started     pod/consumer-svc                             Started container consumer
+77m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+77m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+77m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.861s (1.861s including waiting). Image size: 6025303 bytes.
+77m         Normal    Created     pod/consumer-svc                             Created container: consumer
+77m         Normal    Started     pod/consumer-svc                             Started container consumer
+74m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+60m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+55m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to rubikpi
+55m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+55m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.598s (1.598s including waiting). Image size: 6025303 bytes.
+55m         Normal    Created     pod/consumer-svc                             Created container: consumer
+55m         Normal    Started     pod/consumer-svc                             Started container consumer
+54m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+53m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to rubikpi
+53m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+53m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.536s (1.536s including waiting). Image size: 6025303 bytes.
+53m         Normal    Created     pod/consumer-svc                             Created container: consumer
+53m         Normal    Started     pod/consumer-svc                             Started container consumer
+52m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+49m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+46m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+44m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+42m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+39m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+37m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+35m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to rtosubuntu-500tca-500sca
+35m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+35m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.67s (1.67s including waiting). Image size: 5766525 bytes.
+35m         Normal    Created     pod/consumer-svc                             Created container: consumer
+35m         Normal    Started     pod/consumer-svc                             Started container consumer
+34m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+33m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to rtosubuntu-500tca-500sca
+33m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+33m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.913s (1.913s including waiting). Image size: 5766525 bytes.
+33m         Normal    Created     pod/consumer-svc                             Created container: consumer
+33m         Normal    Started     pod/consumer-svc                             Started container consumer
+32m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+31m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to rtosubuntu-500tca-500sca
+31m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+31m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.688s (1.688s including waiting). Image size: 5766525 bytes.
+31m         Normal    Created     pod/consumer-svc                             Created container: consumer
+31m         Normal    Started     pod/consumer-svc                             Started container consumer
+31m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+30m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to rtosubuntu-500tca-500sca
+30m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+30m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.634s (1.634s including waiting). Image size: 5766525 bytes.
+30m         Normal    Created     pod/consumer-svc                             Created container: consumer
+30m         Normal    Started     pod/consumer-svc                             Started container consumer
+30m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+29m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+26m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+23m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+20m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+17m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to raspberrypi
+14m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to rtosubuntu-500tca-500sca
+14m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+14m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.792s (1.792s including waiting). Image size: 5766525 bytes.
+14m         Normal    Created     pod/consumer-svc                             Created container: consumer
+14m         Normal    Started     pod/consumer-svc                             Started container consumer
+11m         Normal    Killing     pod/consumer-svc                             Stopping container consumer
+11m         Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to rtosubuntu-500tca-500sca
+11m         Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+11m         Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.625s (1.625s including waiting). Image size: 5766525 bytes.
+11m         Normal    Created     pod/consumer-svc                             Created container: consumer
+11m         Normal    Started     pod/consumer-svc                             Started container consumer
+8m59s       Normal    Killing     pod/consumer-svc                             Stopping container consumer
+8m24s       Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to rtosubuntu-500tca-500sca
+8m25s       Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+8m23s       Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.642s (1.642s including waiting). Image size: 5766525 bytes.
+8m23s       Normal    Created     pod/consumer-svc                             Created container: consumer
+8m23s       Normal    Started     pod/consumer-svc                             Started container consumer
+6m3s        Normal    Killing     pod/consumer-svc                             Stopping container consumer
+5m29s       Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to rtosubuntu-500tca-500sca
+5m30s       Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+5m28s       Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.847s (1.847s including waiting). Image size: 5766525 bytes.
+5m28s       Normal    Created     pod/consumer-svc                             Created container: consumer
+5m28s       Normal    Started     pod/consumer-svc                             Started container consumer
+3m8s        Normal    Killing     pod/consumer-svc                             Stopping container consumer
+2m32s       Normal    Scheduled   pod/consumer-svc                             Successfully assigned default/consumer-svc to rtosubuntu-500tca-500sca
+2m33s       Normal    Pulling     pod/consumer-svc                             Pulling image "ssoonan0770/jitter-consumer:latest"
+2m31s       Normal    Pulled      pod/consumer-svc                             Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.668s (1.668s including waiting). Image size: 5766525 bytes.
+2m31s       Normal    Created     pod/consumer-svc                             Created container: consumer
+2m31s       Normal    Started     pod/consumer-svc                             Started container consumer
+59m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rtosubuntu-500tca-500sca
+56m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+59m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.593s (1.593s including waiting). Image size: 31128721 bytes.
+56m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+56m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+59m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.541s (1.541s including waiting). Image size: 31128721 bytes.
+56m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(f245db80-2c21-4187-b09d-7f3f91c93bf3)
+59m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.627s (1.627s including waiting). Image size: 31128721 bytes.
+58m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.618s (1.618s including waiting). Image size: 31128721 bytes.
+58m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.52s (1.52s including waiting). Image size: 31128721 bytes.
+56m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.564s (1.564s including waiting). Image size: 31128721 bytes.
+51m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rtosubuntu-500tca-500sca
+51m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+51m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.718s (1.718s including waiting). Image size: 31128721 bytes.
+51m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+51m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+51m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.516s (1.516s including waiting). Image size: 31128721 bytes.
+51m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(b5a5bdd0-e975-487f-ac4a-09c3250fe843)
+51m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.891s (1.891s including waiting). Image size: 31128721 bytes.
+49m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rtosubuntu-500tca-500sca
+46m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+49m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.572s (1.572s including waiting). Image size: 31128721 bytes.
+46m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+46m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+49m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.531s (1.531s including waiting). Image size: 31128721 bytes.
+46m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(9da68482-14e6-400b-b32c-cf03f3295005)
+49m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.527s (1.527s including waiting). Image size: 31128721 bytes.
+48m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.596s (1.596s including waiting). Image size: 31128721 bytes.
+47m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.559s (1.559s including waiting). Image size: 31128721 bytes.
+46m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.644s (1.644s including waiting). Image size: 31128721 bytes.
+45m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rtosubuntu-500tca-500sca
+44m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+45m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.527s (1.527s including waiting). Image size: 31128721 bytes.
+44m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+44m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+45m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.551s (1.551s including waiting). Image size: 31128721 bytes.
+44m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(41ea7f5b-5b1c-4136-9bab-658d4aa49088)
+45m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 2.678s (2.678s including waiting). Image size: 31128721 bytes.
+44m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.575s (1.575s including waiting). Image size: 31128721 bytes.
+43m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rtosubuntu-500tca-500sca
+42m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+43m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.663s (1.663s including waiting). Image size: 31128721 bytes.
+42m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+42m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+43m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.599s (1.599s including waiting). Image size: 31128721 bytes.
+42m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(b0a41fa1-eac3-48a6-bb5a-432076874692)
+43m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.596s (1.596s including waiting). Image size: 31128721 bytes.
+42m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.635s (1.635s including waiting). Image size: 31128721 bytes.
+41m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rtosubuntu-500tca-500sca
+40m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+41m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.618s (1.618s including waiting). Image size: 31128721 bytes.
+40m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+40m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+41m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.554s (1.554s including waiting). Image size: 31128721 bytes.
+40m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(6f21f9c4-03e2-4132-b8c2-47c64602685a)
+41m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.529s (1.529s including waiting). Image size: 31128721 bytes.
+40m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.484s (1.484s including waiting). Image size: 31128721 bytes.
+39m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rtosubuntu-500tca-500sca
+38m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+39m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.531s (1.531s including waiting). Image size: 31128721 bytes.
+38m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+38m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+39m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.544s (1.544s including waiting). Image size: 31128721 bytes.
+38m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(201262cc-3881-4a4e-a141-f4d4f2a7c5fa)
+39m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.559s (1.559s including waiting). Image size: 31128721 bytes.
+38m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.566s (1.566s including waiting). Image size: 31128721 bytes.
+37m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rtosubuntu-500tca-500sca
+36m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+37m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.566s (1.566s including waiting). Image size: 31128721 bytes.
+36m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+36m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+37m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.522s (1.522s including waiting). Image size: 31128721 bytes.
+36m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(da570a0f-b9f1-4ef7-9ac9-3066b34e771d)
+36m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.516s (1.516s including waiting). Image size: 31128721 bytes.
+36m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.547s (1.547s including waiting). Image size: 31128721 bytes.
+29m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rubikpi
+27m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+29m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.513s (1.513s including waiting). Image size: 30809528 bytes.
+27m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+27m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+29m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.547s (1.547s including waiting). Image size: 30809528 bytes.
+27m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(ae9cdb30-8dd6-4d4b-a171-393c19e906c4)
+28m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.58s (1.58s including waiting). Image size: 30809528 bytes.
+28m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.595s (1.595s including waiting). Image size: 30809528 bytes.
+27m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.556s (1.556s including waiting). Image size: 30809528 bytes.
+26m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rubikpi
+24m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+26m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.485s (1.485s including waiting). Image size: 30809528 bytes.
+24m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+24m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+26m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.553s (1.553s including waiting). Image size: 30809528 bytes.
+24m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(9a97994e-1f4c-45e1-8d96-e4b7efd44a0f)
+25m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.576s (1.576s including waiting). Image size: 30809528 bytes.
+25m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.541s (1.541s including waiting). Image size: 30809528 bytes.
+24m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.564s (1.564s including waiting). Image size: 30809528 bytes.
+23m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rtosubuntu-500tca-500sca
+21m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+23m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.517s (1.518s including waiting). Image size: 31128721 bytes.
+21m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+21m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+23m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.491s (1.491s including waiting). Image size: 31128721 bytes.
+21m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(31a20a80-922d-4b95-9376-a4f0a7a71738)
+22m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.582s (1.582s including waiting). Image size: 31128721 bytes.
+22m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.569s (1.569s including waiting). Image size: 31128721 bytes.
+21m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.533s (1.533s including waiting). Image size: 31128721 bytes.
+20m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rtosubuntu-500tca-500sca
+18m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+19m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.509s (1.509s including waiting). Image size: 31128721 bytes.
+18m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+18m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+19m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.556s (1.556s including waiting). Image size: 31128721 bytes.
+18m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(9bda4460-c6ba-47bf-a0d4-398f4b849089)
+19m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.555s (1.555s including waiting). Image size: 31128721 bytes.
+19m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.56s (1.56s including waiting). Image size: 31128721 bytes.
+18m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 2.001s (2.001s including waiting). Image size: 31128721 bytes.
+16m         Normal    Scheduled   pod/iperf3-client-raspberrypi                Successfully assigned default/iperf3-client-raspberrypi to rubikpi
+15m         Normal    Pulling     pod/iperf3-client-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+16m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.518s (1.518s including waiting). Image size: 30809528 bytes.
+15m         Normal    Created     pod/iperf3-client-raspberrypi                Created container: iperf3
+15m         Normal    Started     pod/iperf3-client-raspberrypi                Started container iperf3
+16m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.525s (1.525s including waiting). Image size: 30809528 bytes.
+14m         Warning   BackOff     pod/iperf3-client-raspberrypi                Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(bb7cf47d-9c68-471a-a436-51b475f824df)
+16m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.552s (1.552s including waiting). Image size: 30809528 bytes.
+16m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.606s (1.606s including waiting). Image size: 30809528 bytes.
+15m         Normal    Pulled      pod/iperf3-client-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.588s (1.588s including waiting). Image size: 30809528 bytes.
+110m        Normal    Pulling     pod/iperf3-client-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+110m        Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.597s (1.597s including waiting). Image size: 30809528 bytes.
+110m        Normal    Created     pod/iperf3-client-rtosubuntu-500tca-500sca   Created container: iperf3
+110m        Normal    Started     pod/iperf3-client-rtosubuntu-500tca-500sca   Started container iperf3
+110m        Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.719s (1.719s including waiting). Image size: 30809528 bytes.
+110m        Warning   BackOff     pod/iperf3-client-rtosubuntu-500tca-500sca   Back-off restarting failed container iperf3 in pod iperf3-client-rtosubuntu-500tca-500sca_default(6ec3536b-20ae-40a9-8643-ed06c4a7f203)
+50m         Normal    Scheduled   pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-client-rtosubuntu-500tca-500sca to raspberrypi
+35m         Normal    Scheduled   pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-client-rtosubuntu-500tca-500sca to rubikpi
+34m         Normal    Pulling     pod/iperf3-client-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+35m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.57s (1.57s including waiting). Image size: 30809528 bytes.
+34m         Normal    Created     pod/iperf3-client-rtosubuntu-500tca-500sca   Created container: iperf3
+34m         Normal    Started     pod/iperf3-client-rtosubuntu-500tca-500sca   Started container iperf3
+35m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.497s (1.497s including waiting). Image size: 30809528 bytes.
+34m         Warning   BackOff     pod/iperf3-client-rtosubuntu-500tca-500sca   Back-off restarting failed container iperf3 in pod iperf3-client-rtosubuntu-500tca-500sca_default(dcf3ad88-8d99-4e47-b4d4-cc86a545195a)
+34m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.525s (1.525s including waiting). Image size: 30809528 bytes.
+34m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.527s (1.527s including waiting). Image size: 30809528 bytes.
+33m         Normal    Scheduled   pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-client-rtosubuntu-500tca-500sca to rubikpi
+32m         Normal    Pulling     pod/iperf3-client-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+33m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.573s (1.573s including waiting). Image size: 30809528 bytes.
+32m         Normal    Created     pod/iperf3-client-rtosubuntu-500tca-500sca   Created container: iperf3
+32m         Normal    Started     pod/iperf3-client-rtosubuntu-500tca-500sca   Started container iperf3
+33m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.518s (1.518s including waiting). Image size: 30809528 bytes.
+32m         Warning   BackOff     pod/iperf3-client-rtosubuntu-500tca-500sca   Back-off restarting failed container iperf3 in pod iperf3-client-rtosubuntu-500tca-500sca_default(df773866-1b4d-4193-afde-390fb1fc0819)
+33m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.584s (1.584s including waiting). Image size: 30809528 bytes.
+32m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.793s (1.793s including waiting). Image size: 30809528 bytes.
+31m         Normal    Scheduled   pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-client-rtosubuntu-500tca-500sca to rubikpi
+31m         Normal    Pulling     pod/iperf3-client-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+31m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.507s (1.507s including waiting). Image size: 30809528 bytes.
+31m         Normal    Created     pod/iperf3-client-rtosubuntu-500tca-500sca   Created container: iperf3
+31m         Normal    Started     pod/iperf3-client-rtosubuntu-500tca-500sca   Started container iperf3
+31m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.49s (1.491s including waiting). Image size: 30809528 bytes.
+31m         Warning   BackOff     pod/iperf3-client-rtosubuntu-500tca-500sca   Back-off restarting failed container iperf3 in pod iperf3-client-rtosubuntu-500tca-500sca_default(05481b35-ac7a-4c5e-9d53-c9a1eacb4c81)
+13m         Normal    Scheduled   pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-client-rtosubuntu-500tca-500sca to rubikpi
+12m         Normal    Pulling     pod/iperf3-client-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+13m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.566s (1.566s including waiting). Image size: 30809528 bytes.
+12m         Normal    Created     pod/iperf3-client-rtosubuntu-500tca-500sca   Created container: iperf3
+12m         Normal    Started     pod/iperf3-client-rtosubuntu-500tca-500sca   Started container iperf3
+13m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.539s (1.539s including waiting). Image size: 30809528 bytes.
+11m         Warning   BackOff     pod/iperf3-client-rtosubuntu-500tca-500sca   Back-off restarting failed container iperf3 in pod iperf3-client-rtosubuntu-500tca-500sca_default(1c348603-a201-46b3-ac3d-c3ac6563876f)
+13m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.582s (1.582s including waiting). Image size: 30809528 bytes.
+13m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.501s (1.501s including waiting). Image size: 30809528 bytes.
+12m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.589s (1.589s including waiting). Image size: 30809528 bytes.
+10m         Normal    Scheduled   pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-client-rtosubuntu-500tca-500sca to rubikpi
+9m21s       Normal    Pulling     pod/iperf3-client-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+10m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.598s (1.598s including waiting). Image size: 30809528 bytes.
+9m20s       Normal    Created     pod/iperf3-client-rtosubuntu-500tca-500sca   Created container: iperf3
+9m20s       Normal    Started     pod/iperf3-client-rtosubuntu-500tca-500sca   Started container iperf3
+10m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.526s (1.526s including waiting). Image size: 30809528 bytes.
+9m5s        Warning   BackOff     pod/iperf3-client-rtosubuntu-500tca-500sca   Back-off restarting failed container iperf3 in pod iperf3-client-rtosubuntu-500tca-500sca_default(86733deb-8bf6-4973-ae32-227283cbd802)
+10m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.519s (1.519s including waiting). Image size: 30809528 bytes.
+10m         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.542s (1.542s including waiting). Image size: 30809528 bytes.
+9m20s       Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.559s (1.559s including waiting). Image size: 30809528 bytes.
+8m3s        Normal    Scheduled   pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-client-rtosubuntu-500tca-500sca to rubikpi
+6m35s       Normal    Pulling     pod/iperf3-client-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+8m2s        Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.51s (1.51s including waiting). Image size: 30809528 bytes.
+6m34s       Normal    Created     pod/iperf3-client-rtosubuntu-500tca-500sca   Created container: iperf3
+6m34s       Normal    Started     pod/iperf3-client-rtosubuntu-500tca-500sca   Started container iperf3
+8m          Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.509s (1.509s including waiting). Image size: 30809528 bytes.
+6m10s       Warning   BackOff     pod/iperf3-client-rtosubuntu-500tca-500sca   Back-off restarting failed container iperf3 in pod iperf3-client-rtosubuntu-500tca-500sca_default(8e123943-05e2-4c45-8ee8-95fa8fe2432d)
+7m44s       Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.485s (1.485s including waiting). Image size: 30809528 bytes.
+7m16s       Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.577s (1.577s including waiting). Image size: 30809528 bytes.
+6m34s       Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.506s (1.506s including waiting). Image size: 30809528 bytes.
+5m8s        Normal    Scheduled   pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-client-rtosubuntu-500tca-500sca to rubikpi
+3m30s       Normal    Pulling     pod/iperf3-client-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+5m7s        Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.549s (1.549s including waiting). Image size: 30809528 bytes.
+3m29s       Normal    Created     pod/iperf3-client-rtosubuntu-500tca-500sca   Created container: iperf3
+3m29s       Normal    Started     pod/iperf3-client-rtosubuntu-500tca-500sca   Started container iperf3
+5m6s        Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.51s (1.51s including waiting). Image size: 30809528 bytes.
+3m14s       Warning   BackOff     pod/iperf3-client-rtosubuntu-500tca-500sca   Back-off restarting failed container iperf3 in pod iperf3-client-rtosubuntu-500tca-500sca_default(e540c4c4-e951-461f-a43b-8a447bb460fc)
+4m52s       Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.524s (1.524s including waiting). Image size: 30809528 bytes.
+4m22s       Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.574s (1.574s including waiting). Image size: 30809528 bytes.
+3m29s       Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.544s (1.544s including waiting). Image size: 30809528 bytes.
+2m1s        Normal    Scheduled   pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-client-rtosubuntu-500tca-500sca to rubikpi
+32s         Normal    Pulling     pod/iperf3-client-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+2m          Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.574s (1.574s including waiting). Image size: 30809528 bytes.
+30s         Normal    Created     pod/iperf3-client-rtosubuntu-500tca-500sca   Created container: iperf3
+30s         Normal    Started     pod/iperf3-client-rtosubuntu-500tca-500sca   Started container iperf3
+118s        Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.517s (1.517s including waiting). Image size: 30809528 bytes.
+7s          Warning   BackOff     pod/iperf3-client-rtosubuntu-500tca-500sca   Back-off restarting failed container iperf3 in pod iperf3-client-rtosubuntu-500tca-500sca_default(de3e2548-320b-456c-be4a-1620685ea298)
+101s        Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.597s (1.597s including waiting). Image size: 30809528 bytes.
+73s         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.563s (1.563s including waiting). Image size: 30809528 bytes.
+30s         Normal    Pulled      pod/iperf3-client-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 2.727s (2.727s including waiting). Image size: 30809528 bytes.
+55m         Normal    Scheduled   pod/iperf3-client-rubikpi                    Successfully assigned default/iperf3-client-rubikpi to rtosubuntu-500tca-500sca
+54m         Normal    Pulling     pod/iperf3-client-rubikpi                    Pulling image "networkstatic/iperf3:latest"
+55m         Normal    Pulled      pod/iperf3-client-rubikpi                    Successfully pulled image "networkstatic/iperf3:latest" in 1.606s (1.606s including waiting). Image size: 31128721 bytes.
+54m         Normal    Created     pod/iperf3-client-rubikpi                    Created container: iperf3
+54m         Normal    Started     pod/iperf3-client-rubikpi                    Started container iperf3
+55m         Normal    Pulled      pod/iperf3-client-rubikpi                    Successfully pulled image "networkstatic/iperf3:latest" in 1.524s (1.524s including waiting). Image size: 31128721 bytes.
+54m         Warning   BackOff     pod/iperf3-client-rubikpi                    Back-off restarting failed container iperf3 in pod iperf3-client-rubikpi_default(6eca7dfe-aedc-4a03-80f0-3a29ea80a7bc)
+55m         Normal    Pulled      pod/iperf3-client-rubikpi                    Successfully pulled image "networkstatic/iperf3:latest" in 1.61s (1.61s including waiting). Image size: 31128721 bytes.
+54m         Normal    Pulled      pod/iperf3-client-rubikpi                    Successfully pulled image "networkstatic/iperf3:latest" in 1.593s (1.593s including waiting). Image size: 31128721 bytes.
+53m         Normal    Scheduled   pod/iperf3-client-rubikpi                    Successfully assigned default/iperf3-client-rubikpi to rtosubuntu-500tca-500sca
+52m         Normal    Pulling     pod/iperf3-client-rubikpi                    Pulling image "networkstatic/iperf3:latest"
+53m         Normal    Pulled      pod/iperf3-client-rubikpi                    Successfully pulled image "networkstatic/iperf3:latest" in 1.586s (1.586s including waiting). Image size: 31128721 bytes.
+52m         Normal    Created     pod/iperf3-client-rubikpi                    Created container: iperf3
+52m         Normal    Started     pod/iperf3-client-rubikpi                    Started container iperf3
+53m         Normal    Pulled      pod/iperf3-client-rubikpi                    Successfully pulled image "networkstatic/iperf3:latest" in 1.528s (1.528s including waiting). Image size: 31128721 bytes.
+52m         Warning   BackOff     pod/iperf3-client-rubikpi                    Back-off restarting failed container iperf3 in pod iperf3-client-rubikpi_default(a2ce5d50-cec0-43cc-be5b-0960dffaa424)
+53m         Normal    Pulled      pod/iperf3-client-rubikpi                    Successfully pulled image "networkstatic/iperf3:latest" in 1.61s (1.61s including waiting). Image size: 31128721 bytes.
+52m         Normal    Pulled      pod/iperf3-client-rubikpi                    Successfully pulled image "networkstatic/iperf3:latest" in 1.567s (1.567s including waiting). Image size: 31128721 bytes.
+119m        Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+119m        Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.673s (1.673s including waiting). Image size: 30809528 bytes.
+119m        Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+119m        Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+116m        Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+111m        Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+111m        Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.724s (1.724s including waiting). Image size: 30809528 bytes.
+111m        Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+111m        Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+111m        Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+111m        Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+111m        Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.696s (1.696s including waiting). Image size: 30809528 bytes.
+111m        Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+111m        Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+110m        Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+109m        Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+109m        Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.703s (1.703s including waiting). Image size: 30809528 bytes.
+109m        Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+109m        Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+106m        Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+105m        Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+105m        Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.697s (1.697s including waiting). Image size: 30809528 bytes.
+105m        Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+105m        Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+104m        Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+103m        Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+103m        Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.634s (1.634s including waiting). Image size: 30809528 bytes.
+103m        Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+103m        Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+102m        Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+101m        Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+101m        Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.619s (1.619s including waiting). Image size: 30809528 bytes.
+101m        Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+101m        Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+100m        Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+99m         Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+99m         Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.643s (1.643s including waiting). Image size: 30809528 bytes.
+99m         Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+99m         Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+98m         Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+97m         Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+97m         Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.685s (1.685s including waiting). Image size: 30809528 bytes.
+97m         Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+97m         Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+96m         Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+89m         Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+89m         Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.712s (1.712s including waiting). Image size: 30809528 bytes.
+89m         Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+89m         Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+86m         Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+86m         Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+86m         Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.613s (1.613s including waiting). Image size: 30809528 bytes.
+86m         Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+86m         Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+83m         Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+83m         Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+83m         Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.629s (1.629s including waiting). Image size: 30809528 bytes.
+83m         Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+83m         Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+80m         Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+80m         Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+80m         Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.831s (1.831s including waiting). Image size: 30809528 bytes.
+80m         Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+80m         Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+77m         Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+77m         Normal    Pulling     pod/iperf3-server-raspberrypi                Pulling image "networkstatic/iperf3:latest"
+77m         Normal    Pulled      pod/iperf3-server-raspberrypi                Successfully pulled image "networkstatic/iperf3:latest" in 1.692s (1.692s including waiting). Image size: 30809528 bytes.
+77m         Normal    Created     pod/iperf3-server-raspberrypi                Created container: iperf3
+77m         Normal    Started     pod/iperf3-server-raspberrypi                Started container iperf3
+74m         Normal    Killing     pod/iperf3-server-raspberrypi                Stopping container iperf3
+59m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+52m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+51m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+49m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+45m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+43m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+41m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+39m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+37m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+29m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+26m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+23m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+20m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+17m         Normal    Scheduled   pod/iperf3-server-raspberrypi                Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+50m         Normal    Scheduled   pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-server-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+50m         Normal    Pulling     pod/iperf3-server-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+50m         Normal    Pulled      pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.588s (1.588s including waiting). Image size: 31128721 bytes.
+50m         Normal    Created     pod/iperf3-server-rtosubuntu-500tca-500sca   Created container: iperf3
+50m         Normal    Started     pod/iperf3-server-rtosubuntu-500tca-500sca   Started container iperf3
+50m         Normal    Killing     pod/iperf3-server-rtosubuntu-500tca-500sca   Stopping container iperf3
+35m         Normal    Scheduled   pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-server-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+35m         Normal    Pulling     pod/iperf3-server-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+35m         Normal    Pulled      pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.834s (1.834s including waiting). Image size: 31128721 bytes.
+35m         Normal    Created     pod/iperf3-server-rtosubuntu-500tca-500sca   Created container: iperf3
+35m         Normal    Started     pod/iperf3-server-rtosubuntu-500tca-500sca   Started container iperf3
+34m         Normal    Killing     pod/iperf3-server-rtosubuntu-500tca-500sca   Stopping container iperf3
+33m         Normal    Scheduled   pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-server-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+33m         Normal    Pulling     pod/iperf3-server-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+33m         Normal    Pulled      pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.516s (1.516s including waiting). Image size: 31128721 bytes.
+33m         Normal    Created     pod/iperf3-server-rtosubuntu-500tca-500sca   Created container: iperf3
+33m         Normal    Started     pod/iperf3-server-rtosubuntu-500tca-500sca   Started container iperf3
+32m         Normal    Killing     pod/iperf3-server-rtosubuntu-500tca-500sca   Stopping container iperf3
+31m         Normal    Scheduled   pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-server-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+31m         Normal    Pulling     pod/iperf3-server-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+31m         Normal    Pulled      pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.593s (1.593s including waiting). Image size: 31128721 bytes.
+31m         Normal    Created     pod/iperf3-server-rtosubuntu-500tca-500sca   Created container: iperf3
+31m         Normal    Started     pod/iperf3-server-rtosubuntu-500tca-500sca   Started container iperf3
+31m         Normal    Killing     pod/iperf3-server-rtosubuntu-500tca-500sca   Stopping container iperf3
+30m         Normal    Scheduled   pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-server-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+30m         Normal    Pulling     pod/iperf3-server-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+30m         Normal    Pulled      pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.568s (1.568s including waiting). Image size: 31128721 bytes.
+30m         Normal    Created     pod/iperf3-server-rtosubuntu-500tca-500sca   Created container: iperf3
+30m         Normal    Started     pod/iperf3-server-rtosubuntu-500tca-500sca   Started container iperf3
+30m         Normal    Killing     pod/iperf3-server-rtosubuntu-500tca-500sca   Stopping container iperf3
+14m         Normal    Scheduled   pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-server-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+14m         Normal    Pulling     pod/iperf3-server-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+14m         Normal    Pulled      pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.514s (1.514s including waiting). Image size: 31128721 bytes.
+14m         Normal    Created     pod/iperf3-server-rtosubuntu-500tca-500sca   Created container: iperf3
+14m         Normal    Started     pod/iperf3-server-rtosubuntu-500tca-500sca   Started container iperf3
+11m         Normal    Killing     pod/iperf3-server-rtosubuntu-500tca-500sca   Stopping container iperf3
+11m         Normal    Scheduled   pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-server-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+11m         Normal    Pulling     pod/iperf3-server-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+11m         Normal    Pulled      pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.603s (1.603s including waiting). Image size: 31128721 bytes.
+11m         Normal    Created     pod/iperf3-server-rtosubuntu-500tca-500sca   Created container: iperf3
+11m         Normal    Started     pod/iperf3-server-rtosubuntu-500tca-500sca   Started container iperf3
+8m57s       Normal    Killing     pod/iperf3-server-rtosubuntu-500tca-500sca   Stopping container iperf3
+8m14s       Normal    Scheduled   pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-server-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+8m14s       Normal    Pulling     pod/iperf3-server-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+8m13s       Normal    Pulled      pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.539s (1.539s including waiting). Image size: 31128721 bytes.
+8m13s       Normal    Created     pod/iperf3-server-rtosubuntu-500tca-500sca   Created container: iperf3
+8m12s       Normal    Started     pod/iperf3-server-rtosubuntu-500tca-500sca   Started container iperf3
+6m2s        Normal    Killing     pod/iperf3-server-rtosubuntu-500tca-500sca   Stopping container iperf3
+5m19s       Normal    Scheduled   pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-server-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+5m19s       Normal    Pulling     pod/iperf3-server-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+5m18s       Normal    Pulled      pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.485s (1.485s including waiting). Image size: 31128721 bytes.
+5m18s       Normal    Created     pod/iperf3-server-rtosubuntu-500tca-500sca   Created container: iperf3
+5m18s       Normal    Started     pod/iperf3-server-rtosubuntu-500tca-500sca   Started container iperf3
+3m5s        Normal    Killing     pod/iperf3-server-rtosubuntu-500tca-500sca   Stopping container iperf3
+2m12s       Normal    Scheduled   pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully assigned default/iperf3-server-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+2m12s       Normal    Pulling     pod/iperf3-server-rtosubuntu-500tca-500sca   Pulling image "networkstatic/iperf3:latest"
+2m10s       Normal    Pulled      pod/iperf3-server-rtosubuntu-500tca-500sca   Successfully pulled image "networkstatic/iperf3:latest" in 1.62s (1.62s including waiting). Image size: 31128721 bytes.
+2m10s       Normal    Created     pod/iperf3-server-rtosubuntu-500tca-500sca   Created container: iperf3
+2m10s       Normal    Started     pod/iperf3-server-rtosubuntu-500tca-500sca   Started container iperf3
+55m         Normal    Scheduled   pod/iperf3-server-rubikpi                    Successfully assigned default/iperf3-server-rubikpi to rubikpi
+55m         Normal    Pulling     pod/iperf3-server-rubikpi                    Pulling image "networkstatic/iperf3:latest"
+55m         Normal    Pulled      pod/iperf3-server-rubikpi                    Successfully pulled image "networkstatic/iperf3:latest" in 1.512s (1.512s including waiting). Image size: 30809528 bytes.
+55m         Normal    Created     pod/iperf3-server-rubikpi                    Created container: iperf3
+55m         Normal    Started     pod/iperf3-server-rubikpi                    Started container iperf3
+54m         Normal    Killing     pod/iperf3-server-rubikpi                    Stopping container iperf3
+53m         Normal    Scheduled   pod/iperf3-server-rubikpi                    Successfully assigned default/iperf3-server-rubikpi to rubikpi
+53m         Normal    Pulling     pod/iperf3-server-rubikpi                    Pulling image "networkstatic/iperf3:latest"
+53m         Normal    Pulled      pod/iperf3-server-rubikpi                    Successfully pulled image "networkstatic/iperf3:latest" in 1.528s (1.528s including waiting). Image size: 30809528 bytes.
+53m         Normal    Created     pod/iperf3-server-rubikpi                    Created container: iperf3
+53m         Normal    Started     pod/iperf3-server-rubikpi                    Started container iperf3
+52m         Normal    Killing     pod/iperf3-server-rubikpi                    Stopping container iperf3
+112m        Normal    Pulling     pod/producer-diff-svc                        Pulling image "ssoonan0770/jitter-producer:latest"
+112m        Normal    Pulled      pod/producer-diff-svc                        Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.646s (1.646s including waiting). Image size: 6031746 bytes.
+112m        Normal    Created     pod/producer-diff-svc                        Created container: producer
+112m        Normal    Started     pod/producer-diff-svc                        Started container producer
+111m        Normal    Killing     pod/producer-diff-svc                        Stopping container producer
+111m        Normal    Pulling     pod/producer-diff-svc                        Pulling image "ssoonan0770/jitter-producer:latest"
+111m        Normal    Pulled      pod/producer-diff-svc                        Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.588s (1.588s including waiting). Image size: 6031746 bytes.
+111m        Normal    Created     pod/producer-diff-svc                        Created container: producer
+111m        Normal    Started     pod/producer-diff-svc                        Started container producer
+110m        Normal    Killing     pod/producer-diff-svc                        Stopping container producer
+53m         Normal    Scheduled   pod/producer-diff-svc                        Successfully assigned default/producer-diff-svc to rubikpi
+53m         Normal    Pulling     pod/producer-diff-svc                        Pulling image "ssoonan0770/jitter-producer:latest"
+53m         Normal    Pulled      pod/producer-diff-svc                        Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.515s (1.515s including waiting). Image size: 6031746 bytes.
+53m         Normal    Created     pod/producer-diff-svc                        Created container: producer
+53m         Normal    Started     pod/producer-diff-svc                        Started container producer
+52m         Normal    Killing     pod/producer-diff-svc                        Stopping container producer
+52m         Normal    Scheduled   pod/producer-diff-svc                        Successfully assigned default/producer-diff-svc to raspberrypi
+51m         Normal    Scheduled   pod/producer-diff-svc                        Successfully assigned default/producer-diff-svc to raspberrypi
+50m         Normal    Scheduled   pod/producer-diff-svc                        Successfully assigned default/producer-diff-svc to rtosubuntu-500tca-500sca
+50m         Normal    Pulling     pod/producer-diff-svc                        Pulling image "ssoonan0770/jitter-producer:latest"
+50m         Normal    Pulled      pod/producer-diff-svc                        Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.539s (1.539s including waiting). Image size: 5774921 bytes.
+50m         Normal    Created     pod/producer-diff-svc                        Created container: producer
+50m         Normal    Started     pod/producer-diff-svc                        Started container producer
+50m         Normal    Killing     pod/producer-diff-svc                        Stopping container producer
+120m        Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+120m        Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.873s (1.873s including waiting). Image size: 6031746 bytes.
+120m        Normal    Created     pod/producer-svc                             Created container: producer
+120m        Normal    Started     pod/producer-svc                             Started container producer
+116m        Normal    Killing     pod/producer-svc                             Stopping container producer
+109m        Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+109m        Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.798s (1.798s including waiting). Image size: 6031746 bytes.
+109m        Normal    Created     pod/producer-svc                             Created container: producer
+109m        Normal    Started     pod/producer-svc                             Started container producer
+106m        Normal    Killing     pod/producer-svc                             Stopping container producer
+105m        Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+105m        Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.836s (1.836s including waiting). Image size: 6031746 bytes.
+105m        Normal    Created     pod/producer-svc                             Created container: producer
+105m        Normal    Started     pod/producer-svc                             Started container producer
+104m        Normal    Killing     pod/producer-svc                             Stopping container producer
+103m        Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+103m        Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.741s (1.741s including waiting). Image size: 6031746 bytes.
+103m        Normal    Created     pod/producer-svc                             Created container: producer
+103m        Normal    Started     pod/producer-svc                             Started container producer
+102m        Normal    Killing     pod/producer-svc                             Stopping container producer
+101m        Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+101m        Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.869s (1.869s including waiting). Image size: 6031746 bytes.
+101m        Normal    Created     pod/producer-svc                             Created container: producer
+101m        Normal    Started     pod/producer-svc                             Started container producer
+100m        Normal    Killing     pod/producer-svc                             Stopping container producer
+99m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+99m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.768s (1.768s including waiting). Image size: 6031746 bytes.
+99m         Normal    Created     pod/producer-svc                             Created container: producer
+99m         Normal    Started     pod/producer-svc                             Started container producer
+98m         Normal    Killing     pod/producer-svc                             Stopping container producer
+97m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+97m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.895s (1.895s including waiting). Image size: 6031746 bytes.
+97m         Normal    Created     pod/producer-svc                             Created container: producer
+97m         Normal    Started     pod/producer-svc                             Started container producer
+96m         Normal    Killing     pod/producer-svc                             Stopping container producer
+89m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+89m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.879s (1.879s including waiting). Image size: 6031746 bytes.
+89m         Normal    Created     pod/producer-svc                             Created container: producer
+89m         Normal    Started     pod/producer-svc                             Started container producer
+87m         Normal    Killing     pod/producer-svc                             Stopping container producer
+86m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+86m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.807s (1.807s including waiting). Image size: 6031746 bytes.
+86m         Normal    Created     pod/producer-svc                             Created container: producer
+86m         Normal    Started     pod/producer-svc                             Started container producer
+83m         Normal    Killing     pod/producer-svc                             Stopping container producer
+83m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+83m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.865s (1.865s including waiting). Image size: 6031746 bytes.
+83m         Normal    Created     pod/producer-svc                             Created container: producer
+83m         Normal    Started     pod/producer-svc                             Started container producer
+81m         Normal    Killing     pod/producer-svc                             Stopping container producer
+80m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+80m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.836s (1.836s including waiting). Image size: 6031746 bytes.
+80m         Normal    Created     pod/producer-svc                             Created container: producer
+80m         Normal    Started     pod/producer-svc                             Started container producer
+77m         Normal    Killing     pod/producer-svc                             Stopping container producer
+77m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+77m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.718s (1.718s including waiting). Image size: 6031746 bytes.
+77m         Normal    Created     pod/producer-svc                             Created container: producer
+77m         Normal    Started     pod/producer-svc                             Started container producer
+74m         Normal    Killing     pod/producer-svc                             Stopping container producer
+60m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+55m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to rubikpi
+55m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+55m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.607s (1.607s including waiting). Image size: 6031746 bytes.
+55m         Normal    Created     pod/producer-svc                             Created container: producer
+55m         Normal    Started     pod/producer-svc                             Started container producer
+54m         Normal    Killing     pod/producer-svc                             Stopping container producer
+53m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to rubikpi
+53m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+53m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.563s (1.563s including waiting). Image size: 6031746 bytes.
+53m         Normal    Created     pod/producer-svc                             Created container: producer
+53m         Normal    Started     pod/producer-svc                             Started container producer
+52m         Normal    Killing     pod/producer-svc                             Stopping container producer
+49m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+46m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+44m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+42m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+39m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+37m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+35m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to rtosubuntu-500tca-500sca
+35m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+35m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.639s (1.639s including waiting). Image size: 5774921 bytes.
+35m         Normal    Created     pod/producer-svc                             Created container: producer
+35m         Normal    Started     pod/producer-svc                             Started container producer
+34m         Normal    Killing     pod/producer-svc                             Stopping container producer
+33m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to rtosubuntu-500tca-500sca
+33m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+33m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.89s (1.89s including waiting). Image size: 5774921 bytes.
+33m         Normal    Created     pod/producer-svc                             Created container: producer
+33m         Normal    Started     pod/producer-svc                             Started container producer
+32m         Normal    Killing     pod/producer-svc                             Stopping container producer
+31m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to rtosubuntu-500tca-500sca
+31m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+31m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.741s (1.741s including waiting). Image size: 5774921 bytes.
+31m         Normal    Created     pod/producer-svc                             Created container: producer
+31m         Normal    Started     pod/producer-svc                             Started container producer
+31m         Normal    Killing     pod/producer-svc                             Stopping container producer
+30m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to rtosubuntu-500tca-500sca
+30m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+30m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.618s (1.618s including waiting). Image size: 5774921 bytes.
+30m         Normal    Created     pod/producer-svc                             Created container: producer
+30m         Normal    Started     pod/producer-svc                             Started container producer
+30m         Normal    Killing     pod/producer-svc                             Stopping container producer
+29m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+26m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+23m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+20m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+17m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to raspberrypi
+14m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to rtosubuntu-500tca-500sca
+14m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+14m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.755s (1.755s including waiting). Image size: 5774921 bytes.
+14m         Normal    Created     pod/producer-svc                             Created container: producer
+14m         Normal    Started     pod/producer-svc                             Started container producer
+11m         Normal    Killing     pod/producer-svc                             Stopping container producer
+11m         Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to rtosubuntu-500tca-500sca
+11m         Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+11m         Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.683s (1.683s including waiting). Image size: 5774921 bytes.
+11m         Normal    Created     pod/producer-svc                             Created container: producer
+11m         Normal    Started     pod/producer-svc                             Started container producer
+8m24s       Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to rtosubuntu-500tca-500sca
+8m25s       Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+8m23s       Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.601s (1.601s including waiting). Image size: 5774921 bytes.
+8m23s       Normal    Created     pod/producer-svc                             Created container: producer
+8m23s       Normal    Started     pod/producer-svc                             Started container producer
+6m3s        Normal    Killing     pod/producer-svc                             Stopping container producer
+5m29s       Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to rtosubuntu-500tca-500sca
+5m30s       Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+5m28s       Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.833s (1.833s including waiting). Image size: 5774921 bytes.
+5m28s       Normal    Created     pod/producer-svc                             Created container: producer
+5m28s       Normal    Started     pod/producer-svc                             Started container producer
+3m8s        Normal    Killing     pod/producer-svc                             Stopping container producer
+2m32s       Normal    Scheduled   pod/producer-svc                             Successfully assigned default/producer-svc to rtosubuntu-500tca-500sca
+2m33s       Normal    Pulling     pod/producer-svc                             Pulling image "ssoonan0770/jitter-producer:latest"
+2m31s       Normal    Pulled      pod/producer-svc                             Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.656s (1.656s including waiting). Image size: 5774921 bytes.
+2m31s       Normal    Created     pod/producer-svc                             Created container: producer
+2m31s       Normal    Started     pod/producer-svc                             Started container producer
+119m        Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+119m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.727s (1.727s including waiting). Image size: 50927483 bytes.
+119m        Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+119m        Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+116m        Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+112m        Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+111m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.729s (1.729s including waiting). Image size: 50927483 bytes.
+111m        Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+111m        Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+111m        Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+111m        Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+111m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.665s (1.665s including waiting). Image size: 50927483 bytes.
+111m        Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+111m        Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+110m        Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+107m        Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+109m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.67s (1.67s including waiting). Image size: 50927483 bytes.
+107m        Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+107m        Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+108m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.652s (1.652s including waiting). Image size: 50927483 bytes.
+106m        Warning   BackOff     pod/stress-cpu-raspberrypi                   Back-off restarting failed container stress-ng in pod stress-cpu-raspberrypi_default(8b152114-5f16-4448-8de6-19ce96fcfb81)
+107m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.705s (1.705s including waiting). Image size: 50927483 bytes.
+104m        Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+105m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.783s (1.783s including waiting). Image size: 50927483 bytes.
+104m        Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+104m        Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+104m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.657s (1.657s including waiting). Image size: 50927483 bytes.
+104m        Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+102m        Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+103m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.616s (1.616s including waiting). Image size: 50927483 bytes.
+102m        Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+102m        Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+102m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.71s (1.71s including waiting). Image size: 50927483 bytes.
+102m        Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+100m        Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+101m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.721s (1.721s including waiting). Image size: 50927483 bytes.
+100m        Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+100m        Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+100m        Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 2.456s (2.456s including waiting). Image size: 50927483 bytes.
+100m        Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+98m         Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+99m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.757s (1.757s including waiting). Image size: 50927483 bytes.
+98m         Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+98m         Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+98m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.697s (1.697s including waiting). Image size: 50927483 bytes.
+98m         Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+96m         Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+97m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.669s (1.669s including waiting). Image size: 50927483 bytes.
+96m         Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+96m         Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+96m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.677s (1.678s including waiting). Image size: 50927483 bytes.
+96m         Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+87m         Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+89m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.641s (1.641s including waiting). Image size: 50927483 bytes.
+87m         Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+87m         Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+87m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.72s (1.72s including waiting). Image size: 50927483 bytes.
+87m         Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+84m         Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+86m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.631s (1.631s including waiting). Image size: 50927483 bytes.
+84m         Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+84m         Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+84m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 2.664s (2.664s including waiting). Image size: 50927483 bytes.
+83m         Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+81m         Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+83m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.732s (1.733s including waiting). Image size: 50927483 bytes.
+81m         Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+81m         Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+81m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.614s (1.614s including waiting). Image size: 50927483 bytes.
+80m         Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+78m         Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+80m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.687s (1.687s including waiting). Image size: 50927483 bytes.
+78m         Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+78m         Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+78m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 2.764s (2.764s including waiting). Image size: 50927483 bytes.
+77m         Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+75m         Normal    Pulling     pod/stress-cpu-raspberrypi                   Pulling image "colinianking/stress-ng"
+77m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.689s (1.689s including waiting). Image size: 50927483 bytes.
+75m         Normal    Created     pod/stress-cpu-raspberrypi                   Created container: stress-ng
+75m         Normal    Started     pod/stress-cpu-raspberrypi                   Started container stress-ng
+75m         Normal    Pulled      pod/stress-cpu-raspberrypi                   Successfully pulled image "colinianking/stress-ng" in 1.683s (1.684s including waiting). Image size: 50927483 bytes.
+74m         Normal    Killing     pod/stress-cpu-raspberrypi                   Stopping container stress-ng
+60m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+52m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+51m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+49m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+45m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+43m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+41m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+39m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+37m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+29m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+26m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+23m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+20m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+17m         Normal    Scheduled   pod/stress-cpu-raspberrypi                   Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+50m         Normal    Scheduled   pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully assigned default/stress-cpu-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+50m         Normal    Pulling     pod/stress-cpu-rtosubuntu-500tca-500sca      Pulling image "colinianking/stress-ng"
+50m         Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.491s (1.491s including waiting). Image size: 54141350 bytes.
+50m         Normal    Created     pod/stress-cpu-rtosubuntu-500tca-500sca      Created container: stress-ng
+50m         Normal    Started     pod/stress-cpu-rtosubuntu-500tca-500sca      Started container stress-ng
+50m         Normal    Killing     pod/stress-cpu-rtosubuntu-500tca-500sca      Stopping container stress-ng
+35m         Normal    Scheduled   pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully assigned default/stress-cpu-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+34m         Normal    Pulling     pod/stress-cpu-rtosubuntu-500tca-500sca      Pulling image "colinianking/stress-ng"
+35m         Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.497s (1.497s including waiting). Image size: 54141350 bytes.
+34m         Normal    Created     pod/stress-cpu-rtosubuntu-500tca-500sca      Created container: stress-ng
+34m         Normal    Started     pod/stress-cpu-rtosubuntu-500tca-500sca      Started container stress-ng
+34m         Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.555s (1.555s including waiting). Image size: 54141350 bytes.
+34m         Normal    Killing     pod/stress-cpu-rtosubuntu-500tca-500sca      Stopping container stress-ng
+33m         Normal    Scheduled   pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully assigned default/stress-cpu-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+32m         Normal    Pulling     pod/stress-cpu-rtosubuntu-500tca-500sca      Pulling image "colinianking/stress-ng"
+33m         Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.614s (1.614s including waiting). Image size: 54141350 bytes.
+32m         Normal    Created     pod/stress-cpu-rtosubuntu-500tca-500sca      Created container: stress-ng
+32m         Normal    Started     pod/stress-cpu-rtosubuntu-500tca-500sca      Started container stress-ng
+32m         Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 3.159s (3.159s including waiting). Image size: 54141350 bytes.
+32m         Normal    Killing     pod/stress-cpu-rtosubuntu-500tca-500sca      Stopping container stress-ng
+31m         Normal    Scheduled   pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully assigned default/stress-cpu-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+31m         Normal    Pulling     pod/stress-cpu-rtosubuntu-500tca-500sca      Pulling image "colinianking/stress-ng"
+31m         Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.625s (1.625s including waiting). Image size: 54141350 bytes.
+31m         Normal    Created     pod/stress-cpu-rtosubuntu-500tca-500sca      Created container: stress-ng
+31m         Normal    Started     pod/stress-cpu-rtosubuntu-500tca-500sca      Started container stress-ng
+31m         Normal    Killing     pod/stress-cpu-rtosubuntu-500tca-500sca      Stopping container stress-ng
+30m         Normal    Scheduled   pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully assigned default/stress-cpu-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+30m         Normal    Pulling     pod/stress-cpu-rtosubuntu-500tca-500sca      Pulling image "colinianking/stress-ng"
+30m         Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.539s (1.539s including waiting). Image size: 54141350 bytes.
+30m         Normal    Created     pod/stress-cpu-rtosubuntu-500tca-500sca      Created container: stress-ng
+30m         Normal    Started     pod/stress-cpu-rtosubuntu-500tca-500sca      Started container stress-ng
+30m         Normal    Killing     pod/stress-cpu-rtosubuntu-500tca-500sca      Stopping container stress-ng
+14m         Normal    Scheduled   pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully assigned default/stress-cpu-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+12m         Normal    Pulling     pod/stress-cpu-rtosubuntu-500tca-500sca      Pulling image "colinianking/stress-ng"
+14m         Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.612s (1.612s including waiting). Image size: 54141350 bytes.
+12m         Normal    Created     pod/stress-cpu-rtosubuntu-500tca-500sca      Created container: stress-ng
+12m         Normal    Started     pod/stress-cpu-rtosubuntu-500tca-500sca      Started container stress-ng
+12m         Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.653s (1.653s including waiting). Image size: 54141350 bytes.
+11m         Normal    Killing     pod/stress-cpu-rtosubuntu-500tca-500sca      Stopping container stress-ng
+11m         Normal    Scheduled   pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully assigned default/stress-cpu-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+9m13s       Normal    Pulling     pod/stress-cpu-rtosubuntu-500tca-500sca      Pulling image "colinianking/stress-ng"
+11m         Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.573s (1.573s including waiting). Image size: 54141350 bytes.
+9m11s       Normal    Created     pod/stress-cpu-rtosubuntu-500tca-500sca      Created container: stress-ng
+9m11s       Normal    Started     pod/stress-cpu-rtosubuntu-500tca-500sca      Started container stress-ng
+9m11s       Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.684s (1.684s including waiting). Image size: 54141350 bytes.
+8m58s       Normal    Killing     pod/stress-cpu-rtosubuntu-500tca-500sca      Stopping container stress-ng
+8m19s       Normal    Scheduled   pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully assigned default/stress-cpu-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+6m17s       Normal    Pulling     pod/stress-cpu-rtosubuntu-500tca-500sca      Pulling image "colinianking/stress-ng"
+8m18s       Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.592s (1.592s including waiting). Image size: 54141350 bytes.
+6m15s       Normal    Created     pod/stress-cpu-rtosubuntu-500tca-500sca      Created container: stress-ng
+6m15s       Normal    Started     pod/stress-cpu-rtosubuntu-500tca-500sca      Started container stress-ng
+6m15s       Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.614s (1.614s including waiting). Image size: 54141350 bytes.
+6m3s        Normal    Killing     pod/stress-cpu-rtosubuntu-500tca-500sca      Stopping container stress-ng
+5m24s       Normal    Scheduled   pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully assigned default/stress-cpu-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+3m22s       Normal    Pulling     pod/stress-cpu-rtosubuntu-500tca-500sca      Pulling image "colinianking/stress-ng"
+5m23s       Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.539s (1.539s including waiting). Image size: 54141350 bytes.
+3m21s       Normal    Created     pod/stress-cpu-rtosubuntu-500tca-500sca      Created container: stress-ng
+3m21s       Normal    Started     pod/stress-cpu-rtosubuntu-500tca-500sca      Started container stress-ng
+3m21s       Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.647s (1.647s including waiting). Image size: 54141350 bytes.
+3m6s        Normal    Killing     pod/stress-cpu-rtosubuntu-500tca-500sca      Stopping container stress-ng
+2m27s       Normal    Scheduled   pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully assigned default/stress-cpu-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+17s         Normal    Pulling     pod/stress-cpu-rtosubuntu-500tca-500sca      Pulling image "colinianking/stress-ng"
+2m18s       Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 9.419s (9.419s including waiting). Image size: 54141331 bytes.
+15s         Normal    Created     pod/stress-cpu-rtosubuntu-500tca-500sca      Created container: stress-ng
+15s         Normal    Started     pod/stress-cpu-rtosubuntu-500tca-500sca      Started container stress-ng
+15s         Normal    Pulled      pod/stress-cpu-rtosubuntu-500tca-500sca      Successfully pulled image "colinianking/stress-ng" in 1.584s (1.584s including waiting). Image size: 54141331 bytes.
+55m         Normal    Scheduled   pod/stress-cpu-rubikpi                       Successfully assigned default/stress-cpu-rubikpi to rubikpi
+54m         Normal    Pulling     pod/stress-cpu-rubikpi                       Pulling image "colinianking/stress-ng"
+55m         Normal    Pulled      pod/stress-cpu-rubikpi                       Successfully pulled image "colinianking/stress-ng" in 1.521s (1.521s including waiting). Image size: 50927483 bytes.
+54m         Normal    Created     pod/stress-cpu-rubikpi                       Created container: stress-ng
+54m         Normal    Started     pod/stress-cpu-rubikpi                       Started container stress-ng
+54m         Normal    Pulled      pod/stress-cpu-rubikpi                       Successfully pulled image "colinianking/stress-ng" in 1.485s (1.485s including waiting). Image size: 50927483 bytes.
+54m         Normal    Killing     pod/stress-cpu-rubikpi                       Stopping container stress-ng
+53m         Normal    Scheduled   pod/stress-cpu-rubikpi                       Successfully assigned default/stress-cpu-rubikpi to rubikpi
+52m         Normal    Pulling     pod/stress-cpu-rubikpi                       Pulling image "colinianking/stress-ng"
+53m         Normal    Pulled      pod/stress-cpu-rubikpi                       Successfully pulled image "colinianking/stress-ng" in 1.636s (1.636s including waiting). Image size: 50927483 bytes.
+52m         Normal    Created     pod/stress-cpu-rubikpi                       Created container: stress-ng
+52m         Normal    Started     pod/stress-cpu-rubikpi                       Started container stress-ng
+52m         Normal    Pulled      pod/stress-cpu-rubikpi                       Successfully pulled image "colinianking/stress-ng" in 1.508s (1.508s including waiting). Image size: 50927483 bytes.
+52m         Normal    Killing     pod/stress-cpu-rubikpi                       Stopping container stress-ng

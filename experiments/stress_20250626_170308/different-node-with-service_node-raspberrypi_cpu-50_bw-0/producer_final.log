@@ -1,0 +1,382 @@
+Producer starting...
+Target address: consumer-service-diff:8080
+Send interval: 10ms
+Connected to consumer-service-diff:8080
+[Stats] Messages: 499 | Rate: 99.79 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 499
+Mean: 2047.48 μs
+StdDev: 629.80 μs
+Min: 655.00 μs
+Max: 10803.00 μs
+Percentiles:
+  P50 (median): 1848.00 μs
+  P90: 2803.00 μs
+  P99: 3732.00 μs
+  P99.9: 10803.00 μs
+=====================================
+[Stats] Messages: 995 | Rate: 99.19 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 994
+Mean: 2376.94 μs
+StdDev: 1224.45 μs
+Min: 647.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1892.00 μs
+  P90: 3456.00 μs
+  P99: 7139.00 μs
+  P99.9: 19428.00 μs
+=====================================
+[Stats] Messages: 1495 | Rate: 100.00 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 1494
+Mean: 2281.65 μs
+StdDev: 1095.59 μs
+Min: 647.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1869.00 μs
+  P90: 3136.00 μs
+  P99: 6716.00 μs
+  P99.9: 12074.00 μs
+=====================================
+[Stats] Messages: 1993 | Rate: 99.61 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 1991
+Mean: 2262.13 μs
+StdDev: 1022.19 μs
+Min: 452.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1869.00 μs
+  P90: 3003.00 μs
+  P99: 6435.00 μs
+  P99.9: 12074.00 μs
+=====================================
+[Stats] Messages: 2493 | Rate: 100.00 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 2489
+Mean: 2207.98 μs
+StdDev: 949.25 μs
+Min: 452.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1853.00 μs
+  P90: 2911.00 μs
+  P99: 6085.00 μs
+  P99.9: 11936.00 μs
+=====================================
+[Stats] Messages: 2993 | Rate: 100.00 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 2988
+Mean: 2161.81 μs
+StdDev: 895.12 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1836.00 μs
+  P90: 2865.00 μs
+  P99: 5901.00 μs
+  P99.9: 11936.00 μs
+=====================================
+[Stats] Messages: 3493 | Rate: 99.98 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 3484
+Mean: 2127.34 μs
+StdDev: 881.76 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1823.00 μs
+  P90: 2828.00 μs
+  P99: 5686.00 μs
+  P99.9: 11936.00 μs
+=====================================
+[Stats] Messages: 3991 | Rate: 99.61 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 3981
+Mean: 2106.96 μs
+StdDev: 848.86 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1813.00 μs
+  P90: 2813.00 μs
+  P99: 5526.00 μs
+  P99.9: 11936.00 μs
+=====================================
+[Stats] Messages: 4490 | Rate: 99.79 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 4477
+Mean: 2098.80 μs
+StdDev: 824.88 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1808.00 μs
+  P90: 2808.00 μs
+  P99: 5258.00 μs
+  P99.9: 10803.00 μs
+=====================================
+[Stats] Messages: 4990 | Rate: 100.01 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 4973
+Mean: 2089.69 μs
+StdDev: 807.13 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1808.00 μs
+  P90: 2800.00 μs
+  P99: 5251.00 μs
+  P99.9: 10803.00 μs
+=====================================
+[Stats] Messages: 5490 | Rate: 100.00 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 5471
+Mean: 2081.85 μs
+StdDev: 802.30 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1804.00 μs
+  P90: 2794.00 μs
+  P99: 5241.00 μs
+  P99.9: 10069.00 μs
+=====================================
+[Stats] Messages: 5990 | Rate: 99.99 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 5971
+Mean: 2087.55 μs
+StdDev: 801.00 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1806.00 μs
+  P90: 2801.00 μs
+  P99: 5258.00 μs
+  P99.9: 10069.00 μs
+=====================================
+[Stats] Messages: 6489 | Rate: 99.80 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 6468
+Mean: 2079.01 μs
+StdDev: 784.26 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1803.00 μs
+  P90: 2796.00 μs
+  P99: 5121.00 μs
+  P99.9: 9555.00 μs
+=====================================
+[Stats] Messages: 6989 | Rate: 99.99 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 6967
+Mean: 2077.97 μs
+StdDev: 775.18 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1805.00 μs
+  P90: 2797.00 μs
+  P99: 5096.00 μs
+  P99.9: 9555.00 μs
+=====================================
+[Stats] Messages: 7488 | Rate: 99.80 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 7463
+Mean: 2078.40 μs
+StdDev: 769.09 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1806.00 μs
+  P90: 2797.00 μs
+  P99: 5062.00 μs
+  P99.9: 9324.00 μs
+=====================================
+[Stats] Messages: 7988 | Rate: 100.00 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 7959
+Mean: 2076.77 μs
+StdDev: 762.57 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1807.00 μs
+  P90: 2795.00 μs
+  P99: 5062.00 μs
+  P99.9: 9324.00 μs
+=====================================
+[Stats] Messages: 8487 | Rate: 99.80 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 8458
+Mean: 2085.70 μs
+StdDev: 792.51 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1809.00 μs
+  P90: 2797.00 μs
+  P99: 5251.00 μs
+  P99.9: 10069.00 μs
+=====================================
+[Stats] Messages: 8985 | Rate: 99.60 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 8956
+Mean: 2082.16 μs
+StdDev: 785.70 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1809.00 μs
+  P90: 2793.00 μs
+  P99: 5246.00 μs
+  P99.9: 10069.00 μs
+=====================================
+[Stats] Messages: 9484 | Rate: 99.79 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 9451
+Mean: 2077.54 μs
+StdDev: 779.14 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1808.00 μs
+  P90: 2791.00 μs
+  P99: 5198.00 μs
+  P99.9: 9555.00 μs
+=====================================
+[Stats] Messages: 9983 | Rate: 99.82 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 9948
+Mean: 2075.11 μs
+StdDev: 770.42 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1807.00 μs
+  P90: 2788.00 μs
+  P99: 5121.00 μs
+  P99.9: 9555.00 μs
+=====================================
+[Stats] Messages: 10482 | Rate: 99.79 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 10447
+Mean: 2070.71 μs
+StdDev: 766.44 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1806.00 μs
+  P90: 2785.00 μs
+  P99: 5145.00 μs
+  P99.9: 9324.00 μs
+=====================================
+[Stats] Messages: 10982 | Rate: 100.01 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 10947
+Mean: 2064.47 μs
+StdDev: 762.15 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1802.00 μs
+  P90: 2780.00 μs
+  P99: 5121.00 μs
+  P99.9: 9555.00 μs
+=====================================
+[Stats] Messages: 11482 | Rate: 100.00 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 11446
+Mean: 2060.20 μs
+StdDev: 755.83 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1800.00 μs
+  P90: 2775.00 μs
+  P99: 5062.00 μs
+  P99.9: 9324.00 μs
+=====================================
+[Stats] Messages: 11982 | Rate: 99.98 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 11945
+Mean: 2059.63 μs
+StdDev: 751.48 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1798.00 μs
+  P90: 2774.00 μs
+  P99: 5050.00 μs
+  P99.9: 9324.00 μs
+=====================================
+[Stats] Messages: 12482 | Rate: 100.02 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 12444
+Mean: 2056.67 μs
+StdDev: 751.31 μs
+Min: 207.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1797.00 μs
+  P90: 2772.00 μs
+  P99: 5015.00 μs
+  P99.9: 9324.00 μs
+=====================================
+[Stats] Messages: 12982 | Rate: 99.99 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 12944
+Mean: 2064.56 μs
+StdDev: 756.96 μs
+Min: 33.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1799.00 μs
+  P90: 2779.00 μs
+  P99: 5096.00 μs
+  P99.9: 9324.00 μs
+=====================================
+[Stats] Messages: 13482 | Rate: 99.99 msg/s | Throughput: 0.39 MB/s | Errors: 0
+
+=== RTT Statistics (microseconds) ===
+Samples: 13444
+Mean: 2064.34 μs
+StdDev: 760.23 μs
+Min: 33.00 μs
+Max: 19428.00 μs
+Percentiles:
+  P50 (median): 1797.00 μs
+  P90: 2778.00 μs
+  P99: 5145.00 μs
+  P99.9: 9324.00 μs
+=====================================

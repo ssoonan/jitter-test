@@ -1,0 +1,59 @@
+=== Metrics at 0s ===
+NAME                       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+raspberrypi                274m         6%     706Mi           18%       
+rtosubuntu-500tca-500sca   8778m        54%    10124Mi         63%       
+rubikpi                    260m         3%     1038Mi          14%       
+
+NAME                                  CPU(cores)   MEMORY(bytes)   
+consumer-diff-svc                     57m          7Mi             
+producer-diff-svc                     28m          5Mi             
+stress-cpu-rtosubuntu-500tca-500sca   14319m       47Mi            
+
+=== Metrics at 30s ===
+NAME                       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+raspberrypi                92m          2%     706Mi           18%       
+rtosubuntu-500tca-500sca   14643m       91%    10049Mi         63%       
+rubikpi                    293m         3%     1038Mi          14%       
+
+NAME                                     CPU(cores)   MEMORY(bytes)   
+consumer-diff-svc                        79m          7Mi             
+iperf3-server-rtosubuntu-500tca-500sca   0m           0Mi             
+producer-diff-svc                        24m          5Mi             
+stress-cpu-rtosubuntu-500tca-500sca      14328m       47Mi            
+
+=== Metrics at 60s ===
+NAME                       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+raspberrypi                109m         2%     706Mi           18%       
+rtosubuntu-500tca-500sca   14809m       92%    10178Mi         64%       
+rubikpi                    300m         3%     1038Mi          14%       
+
+NAME                                     CPU(cores)   MEMORY(bytes)   
+consumer-diff-svc                        79m          7Mi             
+iperf3-server-rtosubuntu-500tca-500sca   0m           0Mi             
+producer-diff-svc                        26m          5Mi             
+stress-cpu-rtosubuntu-500tca-500sca      14341m       47Mi            
+
+=== Metrics at 90s ===
+NAME                       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+raspberrypi                90m          2%     706Mi           18%       
+rtosubuntu-500tca-500sca   14640m       91%    10151Mi         64%       
+rubikpi                    266m         3%     1038Mi          14%       
+
+NAME                                     CPU(cores)   MEMORY(bytes)   
+consumer-diff-svc                        78m          7Mi             
+iperf3-server-rtosubuntu-500tca-500sca   0m           0Mi             
+producer-diff-svc                        25m          6Mi             
+stress-cpu-rtosubuntu-500tca-500sca      14375m       47Mi            
+
+=== Metrics at 120s ===
+NAME                       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+raspberrypi                77m          1%     706Mi           18%       
+rtosubuntu-500tca-500sca   12989m       81%    10179Mi         64%       
+rubikpi                    296m         3%     1038Mi          14%       
+
+NAME                                     CPU(cores)   MEMORY(bytes)   
+consumer-diff-svc                        79m          7Mi             
+iperf3-server-rtosubuntu-500tca-500sca   0m           0Mi             
+producer-diff-svc                        31m          6Mi             
+stress-cpu-rtosubuntu-500tca-500sca      14328m       47Mi            
+

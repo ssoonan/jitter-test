@@ -1,0 +1,8 @@
+Experiment: same-node-with-service_node-rtosubuntu-500tca-500sca_cpu-50_bw-0
+Start time: 2025. 06. 26. (목) 17:24:33 KST
+Duration: 120 seconds
+Consumer Pod: consumer-svc
+Producer Pod: producer-svc
+Producer Node: rtosubuntu-500tca-500sca
+CPU Stress Level: 50%
+Network Bandwidth Limit: 0Mbps

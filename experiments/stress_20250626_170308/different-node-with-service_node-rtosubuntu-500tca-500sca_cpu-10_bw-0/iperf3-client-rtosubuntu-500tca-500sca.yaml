@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: iperf3-client-rtosubuntu-500tca-500sca
+spec:
+  containers:
+  - name: iperf3
+    image: networkstatic/iperf3:latest
+    command: ["sh", "-c"]
+    args:
+      - |
+        SERVER_IP=$(getent hosts iperf3-server-rtosubuntu-500tca-500sca | awk '{ print $1 }')
+        if [ -z "$SERVER_IP" ]; then
+          echo "Failed to resolve iperf3-server-rtosubuntu-500tca-500sca"
+          exit 1
+        fi
+        echo "Connecting to iperf3 server at $SERVER_IP"
+        iperf3 -c $SERVER_IP -p 5201 -b 0M -t 120

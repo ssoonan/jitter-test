@@ -1,0 +1,327 @@
+Name:             consumer-diff-svc
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             rubikpi/192.168.100.80
+Start Time:       Thu, 26 Jun 2025 18:00:23 +0900
+Labels:           app=consumer-diff
+Annotations:      <none>
+Status:           Running
+IP:               10.42.1.159
+IPs:
+  IP:  10.42.1.159
+Containers:
+  consumer:
+    Container ID:   containerd://7361a3ea50797816b52d41d16a6dd2dd37b227f476a802b8f7ba38f47fe288fd
+    Image:          ssoonan0770/jitter-consumer:latest
+    Image ID:       docker.io/ssoonan0770/jitter-consumer@sha256:19f07fc08c537aaa5b248a2fc1ac3522972ef013717da07ea8ef8d27d5978731
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Thu, 26 Jun 2025 18:00:25 +0900
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     1
+      memory:  256Mi
+    Requests:
+      cpu:     1
+      memory:  256Mi
+    Environment:
+      LISTEN_PORT:  8080
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-lpczg (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-lpczg:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   Guaranteed
+Node-Selectors:              kubernetes.io/hostname=rubikpi
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  2m22s  default-scheduler  Successfully assigned default/consumer-diff-svc to rubikpi
+  Normal  Pulling    2m22s  kubelet            Pulling image "ssoonan0770/jitter-consumer:latest"
+  Normal  Pulled     2m21s  kubelet            Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.541s (1.541s including waiting). Image size: 6025303 bytes.
+  Normal  Created    2m21s  kubelet            Created container: consumer
+  Normal  Started    2m21s  kubelet            Started container consumer
+
+
+Name:             iperf3-client-rtosubuntu-500tca-500sca
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             rtosubuntu-500tca-500sca/192.168.100.82
+Start Time:       Thu, 26 Jun 2025 18:00:44 +0900
+Labels:           <none>
+Annotations:      <none>
+Status:           Running
+IP:               10.42.0.200
+IPs:
+  IP:  10.42.0.200
+Containers:
+  iperf3:
+    Container ID:  containerd://2273994c411173c92a2e2175dc0fd0b34c485ad50ba38d11acbef72823b58ccc
+    Image:         networkstatic/iperf3:latest
+    Image ID:      docker.io/networkstatic/iperf3@sha256:07dcca91c0e47d82d83d91de8c3d46b840eef4180499456b4fa8d6dadb46b6c8
+    Port:          <none>
+    Host Port:     <none>
+    Command:
+      sh
+      -c
+    Args:
+      SERVER_IP=$(getent hosts iperf3-server-rtosubuntu-500tca-500sca | awk '{ print $1 }')
+      if [ -z "$SERVER_IP" ]; then
+        echo "Failed to resolve iperf3-server-rtosubuntu-500tca-500sca"
+        exit 1
+      fi
+      echo "Connecting to iperf3 server at $SERVER_IP"
+      iperf3 -c $SERVER_IP -p 5201 -b 0M -t 120
+      
+    State:          Waiting
+      Reason:       CrashLoopBackOff
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    1
+      Started:      Thu, 26 Jun 2025 18:02:16 +0900
+      Finished:     Thu, 26 Jun 2025 18:02:16 +0900
+    Ready:          False
+    Restart Count:  4
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-6988m (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       False 
+  ContainersReady             False 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-6988m:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason     Age                 From               Message
+  ----     ------     ----                ----               -------
+  Normal   Scheduled  2m1s                default-scheduler  Successfully assigned default/iperf3-client-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+  Normal   Pulled     2m                  kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.479s (1.479s including waiting). Image size: 31128721 bytes.
+  Normal   Pulled     117s                kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.548s (1.548s including waiting). Image size: 31128721 bytes.
+  Normal   Pulled     103s                kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.529s (1.529s including waiting). Image size: 31128721 bytes.
+  Normal   Pulled     73s                 kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.672s (1.672s including waiting). Image size: 31128721 bytes.
+  Normal   Pulling    32s (x5 over 2m1s)  kubelet            Pulling image "networkstatic/iperf3:latest"
+  Normal   Created    30s (x5 over 119s)  kubelet            Created container: iperf3
+  Normal   Started    30s (x5 over 119s)  kubelet            Started container iperf3
+  Normal   Pulled     30s                 kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.535s (1.535s including waiting). Image size: 31128721 bytes.
+  Warning  BackOff    5s (x10 over 117s)  kubelet            Back-off restarting failed container iperf3 in pod iperf3-client-rtosubuntu-500tca-500sca_default(cf14a77c-f03d-4472-9f0c-b53e3b4e5d4b)
+
+
+Name:             iperf3-server-rtosubuntu-500tca-500sca
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             rtosubuntu-500tca-500sca/192.168.100.82
+Start Time:       Thu, 26 Jun 2025 18:00:34 +0900
+Labels:           app=iperf3-server
+Annotations:      <none>
+Status:           Running
+IP:               10.42.0.199
+IPs:
+  IP:  10.42.0.199
+Containers:
+  iperf3:
+    Container ID:  containerd://240b1263f0e6e9d076c41a38f7c38c70963e0d7c904fb17fc4fe31ada15ecc21
+    Image:         networkstatic/iperf3:latest
+    Image ID:      docker.io/networkstatic/iperf3@sha256:07dcca91c0e47d82d83d91de8c3d46b840eef4180499456b4fa8d6dadb46b6c8
+    Port:          5201/TCP
+    Host Port:     0/TCP
+    Command:
+      iperf3
+    Args:
+      -s
+      -p
+      5201
+    State:          Running
+      Started:      Thu, 26 Jun 2025 18:00:36 +0900
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-rgrj9 (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-rgrj9:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              kubernetes.io/hostname=rtosubuntu-500tca-500sca
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  2m12s  default-scheduler  Successfully assigned default/iperf3-server-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+  Normal  Pulling    2m11s  kubelet            Pulling image "networkstatic/iperf3:latest"
+  Normal  Pulled     2m10s  kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.579s (1.579s including waiting). Image size: 31128721 bytes.
+  Normal  Created    2m10s  kubelet            Created container: iperf3
+  Normal  Started    2m10s  kubelet            Started container iperf3
+
+
+Name:             producer-diff-svc
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             rtosubuntu-500tca-500sca/192.168.100.82
+Start Time:       Thu, 26 Jun 2025 18:00:23 +0900
+Labels:           app=producer-diff
+Annotations:      <none>
+Status:           Running
+IP:               10.42.0.197
+IPs:
+  IP:  10.42.0.197
+Containers:
+  producer:
+    Container ID:   containerd://2ea4cdb5ec8e3833701e26461c432a900fd870732067920a8c98b4e6e35ec422
+    Image:          ssoonan0770/jitter-producer:latest
+    Image ID:       docker.io/ssoonan0770/jitter-producer@sha256:fa5233324c238e087d3a491e956daf83631c612548392c89862a129947310674
+    Port:           <none>
+    Host Port:      <none>
+    State:          Running
+      Started:      Thu, 26 Jun 2025 18:00:25 +0900
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     1
+      memory:  256Mi
+    Requests:
+      cpu:     1
+      memory:  256Mi
+    Environment:
+      TARGET_ADDRESS:    consumer-service-diff:8080
+      SEND_INTERVAL_MS:  10
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-hp6zh (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-hp6zh:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   Guaranteed
+Node-Selectors:              kubernetes.io/hostname=rtosubuntu-500tca-500sca
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  2m22s  default-scheduler  Successfully assigned default/producer-diff-svc to rtosubuntu-500tca-500sca
+  Normal  Pulling    2m22s  kubelet            Pulling image "ssoonan0770/jitter-producer:latest"
+  Normal  Pulled     2m21s  kubelet            Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.559s (1.559s including waiting). Image size: 5774921 bytes.
+  Normal  Created    2m21s  kubelet            Created container: producer
+  Normal  Started    2m21s  kubelet            Started container producer
+
+
+Name:             stress-cpu-rtosubuntu-500tca-500sca
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             rtosubuntu-500tca-500sca/192.168.100.82
+Start Time:       Thu, 26 Jun 2025 18:00:29 +0900
+Labels:           <none>
+Annotations:      <none>
+Status:           Running
+IP:               10.42.0.198
+IPs:
+  IP:  10.42.0.198
+Containers:
+  stress-ng:
+    Container ID:  containerd://2364485e9c98677f32da6e7d636e64d0e7b7ab6282237a63e14e0aa7ab7a30b4
+    Image:         colinianking/stress-ng
+    Image ID:      docker.io/colinianking/stress-ng@sha256:a1430cba2488312fa258399a2b32a1d1189f312fe2a31438101132e0246baaa2
+    Port:          <none>
+    Host Port:     <none>
+    Command:
+      stress-ng
+    Args:
+      --cpu
+      0
+      --cpu-load
+      90
+      --timeout
+      120s
+      --metrics-brief
+    State:          Running
+      Started:      Thu, 26 Jun 2025 18:02:33 +0900
+    Last State:     Terminated
+      Reason:       Completed
+      Exit Code:    0
+      Started:      Thu, 26 Jun 2025 18:00:31 +0900
+      Finished:     Thu, 26 Jun 2025 18:02:31 +0900
+    Ready:          True
+    Restart Count:  1
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-m9f55 (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-m9f55:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              kubernetes.io/hostname=rtosubuntu-500tca-500sca
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age                  From               Message
+  ----    ------     ----                 ----               -------
+  Normal  Scheduled  2m17s                default-scheduler  Successfully assigned default/stress-cpu-rtosubuntu-500tca-500sca to rtosubuntu-500tca-500sca
+  Normal  Pulled     2m16s                kubelet            Successfully pulled image "colinianking/stress-ng" in 1.52s (1.52s including waiting). Image size: 54141336 bytes.
+  Normal  Pulling    15s (x2 over 2m17s)  kubelet            Pulling image "colinianking/stress-ng"
+  Normal  Created    13s (x2 over 2m15s)  kubelet            Created container: stress-ng
+  Normal  Started    13s (x2 over 2m15s)  kubelet            Started container stress-ng
+  Normal  Pulled     13s                  kubelet            Successfully pulled image "colinianking/stress-ng" in 1.64s (1.64s including waiting). Image size: 54141336 bytes.

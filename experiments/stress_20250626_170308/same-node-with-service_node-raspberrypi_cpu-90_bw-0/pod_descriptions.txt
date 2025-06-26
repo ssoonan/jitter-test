@@ -1,0 +1,327 @@
+Name:             consumer-svc
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             raspberrypi/192.168.100.78
+Start Time:       Thu, 26 Jun 2025 16:15:20 +0900
+Labels:           app=consumer
+Annotations:      <none>
+Status:           Running
+IP:               10.42.2.105
+IPs:
+  IP:  10.42.2.105
+Containers:
+  consumer:
+    Container ID:   containerd://cda5e725b2b3d213364aed7dc66bd0d607dec1c37f7df8b72eb3bbfbbd80b0c9
+    Image:          ssoonan0770/jitter-consumer:latest
+    Image ID:       docker.io/ssoonan0770/jitter-consumer@sha256:19f07fc08c537aaa5b248a2fc1ac3522972ef013717da07ea8ef8d27d5978731
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Thu, 26 Jun 2025 16:15:24 +0900
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     1
+      memory:  256Mi
+    Requests:
+      cpu:     1
+      memory:  256Mi
+    Environment:
+      LISTEN_PORT:  8080
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-d5fb2 (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-d5fb2:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   Guaranteed
+Node-Selectors:              kubernetes.io/hostname=raspberrypi
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  2m26s  default-scheduler  Successfully assigned default/consumer-svc to raspberrypi
+  Normal  Pulling    62m    kubelet            Pulling image "ssoonan0770/jitter-consumer:latest"
+  Normal  Pulled     62m    kubelet            Successfully pulled image "ssoonan0770/jitter-consumer:latest" in 1.861s (1.861s including waiting). Image size: 6025303 bytes.
+  Normal  Created    62m    kubelet            Created container: consumer
+  Normal  Started    62m    kubelet            Started container consumer
+
+
+Name:             iperf3-client-raspberrypi
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             rubikpi/192.168.100.80
+Start Time:       Thu, 26 Jun 2025 17:15:41 +0900
+Labels:           <none>
+Annotations:      <none>
+Status:           Running
+IP:               10.42.1.144
+IPs:
+  IP:  10.42.1.144
+Containers:
+  iperf3:
+    Container ID:  containerd://0b9e488586c0530ad05932bd43b9121df90c8f73fb707da59c28b0148ba0e16a
+    Image:         networkstatic/iperf3:latest
+    Image ID:      docker.io/networkstatic/iperf3@sha256:07dcca91c0e47d82d83d91de8c3d46b840eef4180499456b4fa8d6dadb46b6c8
+    Port:          <none>
+    Host Port:     <none>
+    Command:
+      sh
+      -c
+    Args:
+      SERVER_IP=$(getent hosts iperf3-server-raspberrypi | awk '{ print $1 }')
+      if [ -z "$SERVER_IP" ]; then
+        echo "Failed to resolve iperf3-server-raspberrypi"
+        exit 1
+      fi
+      echo "Connecting to iperf3 server at $SERVER_IP"
+      iperf3 -c $SERVER_IP -p 5201 -b 0M -t 120
+      
+    State:          Waiting
+      Reason:       CrashLoopBackOff
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    1
+      Started:      Thu, 26 Jun 2025 17:17:22 +0900
+      Finished:     Thu, 26 Jun 2025 17:17:22 +0900
+    Ready:          False
+    Restart Count:  4
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-nkv84 (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       False 
+  ContainersReady             False 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-nkv84:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason     Age                 From               Message
+  ----     ------     ----                ----               -------
+  Normal   Scheduled  2m                  default-scheduler  Successfully assigned default/iperf3-client-raspberrypi to rubikpi
+  Normal   Pulled     119s                kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.518s (1.518s including waiting). Image size: 30809528 bytes.
+  Normal   Pulled     116s                kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.525s (1.525s including waiting). Image size: 30809528 bytes.
+  Normal   Pulled     102s                kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.552s (1.552s including waiting). Image size: 30809528 bytes.
+  Normal   Pulled     75s                 kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.606s (1.606s including waiting). Image size: 30809528 bytes.
+  Normal   Pulling    21s (x5 over 2m)    kubelet            Pulling image "networkstatic/iperf3:latest"
+  Normal   Created    20s (x5 over 119s)  kubelet            Created container: iperf3
+  Normal   Started    20s (x5 over 118s)  kubelet            Started container iperf3
+  Normal   Pulled     20s                 kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.588s (1.588s including waiting). Image size: 30809528 bytes.
+  Warning  BackOff    4s (x10 over 116s)  kubelet            Back-off restarting failed container iperf3 in pod iperf3-client-raspberrypi_default(bb7cf47d-9c68-471a-a436-51b475f824df)
+
+
+Name:             iperf3-server-raspberrypi
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             raspberrypi/192.168.100.78
+Start Time:       Thu, 26 Jun 2025 16:15:31 +0900
+Labels:           app=iperf3-server
+Annotations:      <none>
+Status:           Running
+IP:               10.42.2.108
+IPs:
+  IP:  10.42.2.108
+Containers:
+  iperf3:
+    Container ID:  containerd://b4f0b717d5cc9f1005a2ed169a7280e3d4da59a86282a379688a2cfa23d7f20d
+    Image:         networkstatic/iperf3:latest
+    Image ID:      docker.io/networkstatic/iperf3@sha256:07dcca91c0e47d82d83d91de8c3d46b840eef4180499456b4fa8d6dadb46b6c8
+    Port:          5201/TCP
+    Host Port:     0/TCP
+    Command:
+      iperf3
+    Args:
+      -s
+      -p
+      5201
+    State:          Running
+      Started:      Thu, 26 Jun 2025 16:15:36 +0900
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-82wh6 (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-82wh6:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              kubernetes.io/hostname=raspberrypi
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  2m15s  default-scheduler  Successfully assigned default/iperf3-server-raspberrypi to raspberrypi
+  Normal  Pulling    62m    kubelet            Pulling image "networkstatic/iperf3:latest"
+  Normal  Pulled     62m    kubelet            Successfully pulled image "networkstatic/iperf3:latest" in 1.692s (1.692s including waiting). Image size: 30809528 bytes.
+  Normal  Created    62m    kubelet            Created container: iperf3
+  Normal  Started    62m    kubelet            Started container iperf3
+
+
+Name:             producer-svc
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             raspberrypi/192.168.100.78
+Start Time:       Thu, 26 Jun 2025 16:15:20 +0900
+Labels:           app=producer
+Annotations:      <none>
+Status:           Running
+IP:               10.42.2.106
+IPs:
+  IP:  10.42.2.106
+Containers:
+  producer:
+    Container ID:   containerd://e8b3cc9984fed6f22e4c0cbe6b27fe8600c31295003391f12114f5ffb3818f37
+    Image:          ssoonan0770/jitter-producer:latest
+    Image ID:       docker.io/ssoonan0770/jitter-producer@sha256:fa5233324c238e087d3a491e956daf83631c612548392c89862a129947310674
+    Port:           <none>
+    Host Port:      <none>
+    State:          Running
+      Started:      Thu, 26 Jun 2025 16:15:25 +0900
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     1
+      memory:  256Mi
+    Requests:
+      cpu:     1
+      memory:  256Mi
+    Environment:
+      TARGET_ADDRESS:    consumer-service:8080
+      SEND_INTERVAL_MS:  10
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-xwxpt (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-xwxpt:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   Guaranteed
+Node-Selectors:              kubernetes.io/hostname=raspberrypi
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  2m26s  default-scheduler  Successfully assigned default/producer-svc to raspberrypi
+  Normal  Pulling    62m    kubelet            Pulling image "ssoonan0770/jitter-producer:latest"
+  Normal  Pulled     62m    kubelet            Successfully pulled image "ssoonan0770/jitter-producer:latest" in 1.718s (1.718s including waiting). Image size: 6031746 bytes.
+  Normal  Created    62m    kubelet            Created container: producer
+  Normal  Started    62m    kubelet            Started container producer
+
+
+Name:             stress-cpu-raspberrypi
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             raspberrypi/192.168.100.78
+Start Time:       Thu, 26 Jun 2025 16:15:26 +0900
+Labels:           <none>
+Annotations:      <none>
+Status:           Running
+IP:               10.42.2.107
+IPs:
+  IP:  10.42.2.107
+Containers:
+  stress-ng:
+    Container ID:  containerd://3d2730c839641cec29fed9232b1eec7267191e088d5736ea27e9d838bf79cb1f
+    Image:         colinianking/stress-ng
+    Image ID:      docker.io/colinianking/stress-ng@sha256:97929fc580046576cb2e288b94f513cc71b3499a8dc54be5794968029424668a
+    Port:          <none>
+    Host Port:     <none>
+    Command:
+      stress-ng
+    Args:
+      --cpu
+      0
+      --cpu-load
+      90
+      --timeout
+      120s
+      --metrics-brief
+    State:          Running
+      Started:      Thu, 26 Jun 2025 16:17:32 +0900
+    Last State:     Terminated
+      Reason:       Completed
+      Exit Code:    0
+      Started:      Thu, 26 Jun 2025 16:15:29 +0900
+      Finished:     Thu, 26 Jun 2025 16:17:30 +0900
+    Ready:          True
+    Restart Count:  1
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-x86jc (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-x86jc:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              kubernetes.io/hostname=raspberrypi
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age                From               Message
+  ----    ------     ----               ----               -------
+  Normal  Scheduled  2m21s              default-scheduler  Successfully assigned default/stress-cpu-raspberrypi to raspberrypi
+  Normal  Pulled     62m                kubelet            Successfully pulled image "colinianking/stress-ng" in 1.689s (1.689s including waiting). Image size: 50927483 bytes.
+  Normal  Pulling    60m (x2 over 62m)  kubelet            Pulling image "colinianking/stress-ng"
+  Normal  Created    60m (x2 over 62m)  kubelet            Created container: stress-ng
+  Normal  Pulled     60m                kubelet            Successfully pulled image "colinianking/stress-ng" in 1.683s (1.684s including waiting). Image size: 50927483 bytes.
+  Normal  Started    60m (x2 over 62m)  kubelet            Started container stress-ng

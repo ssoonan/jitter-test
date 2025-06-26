@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: iperf3-client-raspberrypi
+spec:
+  containers:
+  - name: iperf3
+    image: networkstatic/iperf3:latest
+    command: ["sh", "-c"]
+    args:
+      - |
+        SERVER_IP=$(getent hosts iperf3-server-raspberrypi | awk '{ print $1 }')
+        if [ -z "$SERVER_IP" ]; then
+          echo "Failed to resolve iperf3-server-raspberrypi"
+          exit 1
+        fi
+        echo "Connecting to iperf3 server at $SERVER_IP"
+        iperf3 -c $SERVER_IP -p 5201 -b 0M -t 120

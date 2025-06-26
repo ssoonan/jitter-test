@@ -1,0 +1,16 @@
+Consumer starting on port 8080...
+Listening on [::]:8080
+New connection from 10.42.0.197:44918
+Received: 1000 packets | Lost: 0 (0.00%)
+Received: 2000 packets | Lost: 0 (0.00%)
+Received: 3000 packets | Lost: 0 (0.00%)
+Received: 4000 packets | Lost: 0 (0.00%)
+Received: 5000 packets | Lost: 0 (0.00%)
+Received: 6000 packets | Lost: 0 (0.00%)
+Received: 7000 packets | Lost: 0 (0.00%)
+Received: 8000 packets | Lost: 0 (0.00%)
+Received: 9000 packets | Lost: 0 (0.00%)
+Received: 10000 packets | Lost: 0 (0.00%)
+Received: 11000 packets | Lost: 0 (0.00%)
+Received: 12000 packets | Lost: 0 (0.00%)
+Received: 13000 packets | Lost: 0 (0.00%)
