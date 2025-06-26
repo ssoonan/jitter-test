@@ -221,10 +221,10 @@ EOF
 # make build
 
 # 실험 실행
-# run_experiment "k8s/same-node-no-service.yaml" "same_node_no_service" 600
+run_experiment "k8s/same-node-no-service.yaml" "same_node_no_service" 600
 # run_experiment "k8s/same-node-with-service.yaml" "same_node_with_service" 600
-run_experiment "k8s/different-node-no-service.yaml" "different_node_no_service" 600
-run_experiment "k8s/different-node-with-service.yaml" "different_node_with_service" 600
+# run_experiment "k8s/different-node-no-service.yaml" "different_node_no_service" 600
+# run_experiment "k8s/different-node-with-service.yaml" "different_node_with_service" 600
 
 # # 결과 요약 생성
 # echo "========================================="

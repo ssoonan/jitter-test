@@ -19,7 +19,7 @@ metadata:
     app: consumer
 spec:
   nodeSelector:
-    kubernetes.io/hostname: rtosubuntu-500tca-500sca
+    kubernetes.io/hostname: NODE_NAME_PLACEHOLDER
   containers:
     - name: consumer
       image: ssoonan0770/jitter-consumer:latest
@@ -45,7 +45,7 @@ metadata:
     app: producer
 spec:
   nodeSelector:
-    kubernetes.io/hostname: rtosubuntu-500tca-500sca
+    kubernetes.io/hostname: NODE_NAME_PLACEHOLDER
   containers:
     - name: producer
       image: ssoonan0770/jitter-producer:latest

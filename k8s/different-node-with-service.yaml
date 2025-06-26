@@ -19,7 +19,7 @@ metadata:
     app: consumer-diff
 spec:
   nodeSelector:
-    kubernetes.io/hostname: rubikpi
+    kubernetes.io/hostname: rtosubuntu-500tca-500sca  # Fixed consumer node
   containers:
   - name: consumer
     image: ssoonan0770/jitter-consumer:latest
@@ -45,8 +45,7 @@ metadata:
     app: producer-diff
 spec:
   nodeSelector:
-    # kubernetes.io/hostname: raspberrypi
-    kubernetes.io/hostname: rtosubuntu-500tca-500sca
+    kubernetes.io/hostname: PRODUCER_NODE_PLACEHOLDER
   containers:
   - name: producer
     image: ssoonan0770/jitter-producer:latest
