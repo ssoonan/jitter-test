@@ -5,11 +5,12 @@ mkdir -p $EXPERIMENT_BASE_DIR
 
 # Configuration
 CPU_LEVELS=(10 30 50 70 90)
-NETWORK_BANDWIDTH_LEVELS=(10 50 100 500 1000)  # Mbps
+NETWORK_BANDWIDTH_LEVELS=(0)  # Mbps
+# NETWORK_BANDWIDTH_LEVELS=(10 50 100 500 1000)  # Mbps
 PRODUCER_NODES=("raspberrypi" "rtosubuntu-500tca-500sca")
 SCENARIOS=("same-node-with-service" "different-node-with-service")
 # SCENARIOS=("same-node-no-service" "same-node-with-service" "different-node-no-service" "different-node-with-service")
-EXPERIMENT_DURATION=300  # 5 minutes per experiment
+EXPERIMENT_DURATION=120  # 5 minutes per experiment
 
 # Colors for output
 RED='\033[0;31m'
@@ -129,13 +130,6 @@ spec:
       - "--timeout"
       - "${EXPERIMENT_DURATION}s"
       - "--metrics-brief"
-    resources:
-      requests:
-        cpu: "100m"
-        memory: "128Mi"
-      limits:
-        cpu: "2000m"
-        memory: "256Mi"
 EOF
 
     kubectl apply -f $exp_dir/stress-cpu-$node.yaml
@@ -228,7 +222,7 @@ prepare_yaml_with_nodes() {
     elif [[ "$scenario_type" == "different-node" ]]; then
         # For different-node tests: consumer fixed, producer dynamic
         sed -i "s/PRODUCER_NODE_PLACEHOLDER/$node_name/g" "$target_yaml"
-        log "Configured different-node test: consumer on rtosubuntu-500tca-500sca, producer on $node_name"
+        log "Configured different-node test: consumer on rubikpi, producer on $node_name"
     fi
 }
 

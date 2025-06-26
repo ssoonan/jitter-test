@@ -20,7 +20,7 @@ while true; do
     
     # Show running pods
     echo -e "${BLUE}Active Pods:${NC}"
-    kubectl get pods -o wide | grep -E "(jitter-|stress-|iperf3-|consumer-|producer-)" | while read line; do
+    kubectl get pods -o wide | grep -E "(consumer|producer|stress-|iperf3-)" | while read line; do
         if echo "$line" | grep -q "Running"; then
             echo -e "${GREEN}✓${NC} $line"
         else
@@ -32,15 +32,12 @@ while true; do
     kubectl top nodes 2>/dev/null || echo "Metrics not available"
     
     echo -e "\n${BLUE}Pod Resource Usage:${NC}"
-    kubectl top pods 2>/dev/null | grep -E "(jitter-|stress-|iperf3-|consumer-|producer-)" || echo "No stress pods running"
+    kubectl top pods 2>/dev/null | grep -E "(consumer|producer|stress-|iperf3-)" || echo "No stress pods running"
     
     # Show latest latency stats from producer
     echo -e "\n${BLUE}Latest Latency Statistics:${NC}"
-    # Try different producer pod labels
+    # Try different producer pod labels in correct order
     producer_pod=$(kubectl get pods -l app=producer-diff -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
-    if [ -z "$producer_pod" ]; then
-        producer_pod=$(kubectl get pods -l app=producer-same -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
-    fi
     if [ -z "$producer_pod" ]; then
         producer_pod=$(kubectl get pods -l app=producer -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
     fi

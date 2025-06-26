@@ -201,12 +201,13 @@ echo ""
 echo "Collecting results..."
 
 # Get pod names based on scenario
-if [[ "$SCENARIO" == *"same-node"* ]]; then
-    CONSUMER_POD=$(kubectl get pods -l app=consumer-same -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
-    PRODUCER_POD=$(kubectl get pods -l app=producer-same -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
-else
+if [[ "$SCENARIO" == *"different-node"* ]]; then
     CONSUMER_POD=$(kubectl get pods -l app=consumer-diff -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
     PRODUCER_POD=$(kubectl get pods -l app=producer-diff -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
+else
+    # same-node scenarios use generic labels
+    CONSUMER_POD=$(kubectl get pods -l app=consumer -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
+    PRODUCER_POD=$(kubectl get pods -l app=producer -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
 fi
 
 # Save logs with better error handling
