@@ -18,7 +18,7 @@ metadata:
     app: consumer
 spec:
   nodeSelector:
-    kubernetes.io/hostname: rubikpi
+    kubernetes.io/hostname: rtosubuntu-500tca-500sca
   hostname: consumer  # Pod의 hostname 설정
   subdomain: consumer-headless  # headless service와 연결
   containers:
@@ -46,7 +46,7 @@ metadata:
     app: producer
 spec:
   nodeSelector:
-    kubernetes.io/hostname: rubikpi
+    kubernetes.io/hostname: rtosubuntu-500tca-500sca
   containers:
   - name: producer
     image: ssoonan0770/jitter-producer:latest

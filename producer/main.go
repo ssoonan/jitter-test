@@ -3,10 +3,13 @@ package main
 import (
 	"encoding/binary"
 	"fmt"
+	"math"
 	"net"
 	"os"
 	"os/signal"
 	"runtime"
+	"sort"
+	"sync"
 	"sync/atomic"
 	"syscall"
 	"time"
@@ -18,13 +21,89 @@ type Message struct {
 	Padding   [4080]byte // 전체 메시지를 4KB로 만들기 위한 패딩
 }
 
+type AckMessage struct {
+	Sequence uint64
+}
+
 type Statistics struct {
 	messagesSent uint64
 	bytessSent   uint64
 	errors       uint64
 }
 
+type RTTStats struct {
+	mu         sync.Mutex
+	samples    []float64
+	count      int64
+	sum        float64
+	sumSquared float64
+	min        float64
+	max        float64
+}
+
+func NewRTTStats() *RTTStats {
+	return &RTTStats{
+		samples: make([]float64, 0, 100000),
+		min:     math.MaxFloat64,
+		max:     0,
+	}
+}
+
+func (s *RTTStats) Add(rtt float64) {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+
+	s.samples = append(s.samples, rtt)
+	s.count++
+	s.sum += rtt
+	s.sumSquared += rtt * rtt
+
+	if rtt < s.min {
+		s.min = rtt
+	}
+	if rtt > s.max {
+		s.max = rtt
+	}
+}
+
+func (s *RTTStats) Calculate() {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+
+	if s.count == 0 {
+		fmt.Println("No RTT samples collected")
+		return
+	}
+
+	mean := s.sum / float64(s.count)
+	variance := (s.sumSquared / float64(s.count)) - (mean * mean)
+	stddev := math.Sqrt(variance)
+
+	// 샘플 정렬 (백분위수 계산용)
+	sort.Float64s(s.samples)
+
+	p50 := s.samples[len(s.samples)*50/100]
+	p90 := s.samples[len(s.samples)*90/100]
+	p99 := s.samples[len(s.samples)*99/100]
+	p999 := s.samples[len(s.samples)*999/1000]
+
+	fmt.Printf("\n=== RTT Statistics (microseconds) ===")
+	fmt.Printf("\nSamples: %d", s.count)
+	fmt.Printf("\nMean: %.2f μs", mean)
+	fmt.Printf("\nStdDev: %.2f μs", stddev)
+	fmt.Printf("\nMin: %.2f μs", s.min)
+	fmt.Printf("\nMax: %.2f μs", s.max)
+	fmt.Printf("\nPercentiles:")
+	fmt.Printf("\n  P50 (median): %.2f μs", p50)
+	fmt.Printf("\n  P90: %.2f μs", p90)
+	fmt.Printf("\n  P99: %.2f μs", p99)
+	fmt.Printf("\n  P99.9: %.2f μs", p999)
+	fmt.Printf("\n=====================================\n")
+}
+
 var stats Statistics
+var rttStats *RTTStats
+var sendTimes sync.Map // map[uint64]time.Time to track send times
 
 func main() {
 	// CPU 코어 고정 (선택사항)
@@ -80,6 +159,12 @@ func main() {
 	sigChan := make(chan os.Signal, 1)
 	signal.Notify(sigChan, syscall.SIGINT, syscall.SIGTERM)
 
+	// RTT 통계 초기화
+	rttStats = NewRTTStats()
+
+	// ACK 수신 고루틴 시작
+	go receiveAcks(conn)
+
 	// 통계 출력 고루틴
 	go printStatistics()
 
@@ -120,6 +205,8 @@ func main() {
 
 			atomic.AddUint64(&stats.messagesSent, 1)
 			atomic.AddUint64(&stats.bytessSent, uint64(binary.Size(msg)))
+			// RTT 측정을 위해 전송 시간 저장
+			sendTimes.Store(sequence, time.Now())
 			sequence++
 
 		case <-sigChan:
@@ -130,6 +217,24 @@ func main() {
 
 	// 최종 통계 출력
 	printFinalStats()
+}
+
+func receiveAcks(conn net.Conn) {
+	for {
+		var ack AckMessage
+		err := binary.Read(conn, binary.BigEndian, &ack)
+		if err != nil {
+			fmt.Printf("Error reading ACK: %v\n", err)
+			return
+		}
+
+		// 전송 시간 조회
+		if sendTimeI, ok := sendTimes.LoadAndDelete(ack.Sequence); ok {
+			sendTime := sendTimeI.(time.Time)
+			rtt := float64(time.Since(sendTime).Microseconds())
+			rttStats.Add(rtt)
+		}
+	}
 }
 
 func printStatistics() {
@@ -153,6 +258,9 @@ func printStatistics() {
 		fmt.Printf("[Stats] Messages: %d | Rate: %.2f msg/s | Throughput: %.2f MB/s | Errors: %d\n",
 			currentMessages, messageRate, throughput, currentErrors)
 
+		// RTT 통계 출력
+		rttStats.Calculate()
+
 		lastMessages = currentMessages
 		lastBytes = currentBytes
 		lastTime = currentTime
@@ -164,4 +272,7 @@ func printFinalStats() {
 	fmt.Printf("Total messages sent: %d\n", stats.messagesSent)
 	fmt.Printf("Total bytes sent: %d\n", stats.bytessSent)
 	fmt.Printf("Total errors: %d\n", stats.errors)
+	
+	// Final RTT statistics
+	rttStats.Calculate()
 }

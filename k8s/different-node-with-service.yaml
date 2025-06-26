@@ -45,7 +45,8 @@ metadata:
     app: producer-diff
 spec:
   nodeSelector:
-    kubernetes.io/hostname: raspberrypi
+    # kubernetes.io/hostname: raspberrypi
+    kubernetes.io/hostname: rtosubuntu-500tca-500sca
   containers:
   - name: producer
     image: ssoonan0770/jitter-producer:latest
